@@ -1,0 +1,22 @@
+10 original tracks for horror games, psychological thrillers, haunted environments, and anything that needs to feel quietly wrong.
+
+This pack is built for the moments where the threat isn't visible yet. Dark piano with reversed audio textures, dissonant strings, lo-fi beats that feel like they're coming from another room. Music that players feel before they understand why.
+
+All tracks are provided as .ogg files — the recommended format for music in Godot for optimal streaming performance and file size.
+
+TRACKS INCLUDED
+1. Wavelengths — reversed spooky piano, strings and synths, Am, 176 BPM
+2. Kukoo — unsettling and unpredictable, Bbm, 100 BPM
+3. Spook-Fi — lo-fi horror beat, spooky and atmospheric, F, 150 BPM
+4. Run From the Mirrors — dissonant and urgent, Dm, 100 BPM
+5. Scared of the Wall — slow building dread, Dm, 70 BPM
+6. Childish Intent — dark and deeply uneasy, Dm, 100 BPM
+7. Ungood Night — frantic horror energy, C#m, 180 BPM
+8. Back of the Head — paranoid and relentless, Bb, 161 BPM
+9. Hollow Call — hollow and distant menace, Bbm, 150 BPM
+10. A Formula — cold and methodical dread, Gm, 100 BPM
+
+LICENSE
+Free to use in any Godot project with attribution. Credit "Music: Talon Trueblood" in your game credits or itch.io page. Commercial use permitted with credit.
+
+Part of the Talon catalog — 203 original tracks across themed packs, all free with attribution.

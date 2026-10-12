@@ -1,0 +1,22 @@
+{
+  "act": 2,
+  "act_title": "THE OFFICE FLOOR",
+  "venue": "office",
+  "cols": 5,
+  "rows": 3,
+  "rooms": 15,
+  "dread": 0.7,
+  "size": [
+    30.0,
+    18.0,
+    2.7
+  ],
+  "lights": {
+    "total": 22,
+    "dead": 8,
+    "failing": 7,
+    "working": 7
+  },
+  "props": 60,
+  "doors": 0
+}

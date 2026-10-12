@@ -1,0 +1,249 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://demo/showcase.gd" id="1"]
+[ext_resource type="Script" path="res://demo/free_camera.gd" id="2"]
+[ext_resource type="Texture2D" path="res://demo/textures/concrete_cracked.png" id="3"]
+[ext_resource type="Texture2D" path="res://demo/textures/planks_dark_old.png" id="4"]
+[ext_resource type="Texture2D" path="res://demo/textures/stone_blocks_dungeon.png" id="5"]
+[ext_resource type="PackedScene" path="res://monsters/shambler/shambler.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://monsters/hound/hound.tscn" id="7"]
+
+[sub_resource type="Environment" id="env"]
+background_mode = 1
+background_color = Color(0.02, 0.018, 0.02, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.62, 0.6, 0.66, 1)
+ambient_light_energy = 0.5
+reflected_light_source = 1
+tonemap_mode = 0
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.02, 0.018, 0.02, 1)
+fog_density = 1.0
+fog_depth_begin = 6.0
+fog_depth_end = 14.0
+fog_depth_curve = 1.0
+
+[sub_resource type="StandardMaterial3D" id="floor_mat"]
+albedo_texture = ExtResource("3")
+roughness = 1.0
+metallic_specular = 0.0
+uv1_scale = Vector3(3.0, 3.0, 1.0)
+texture_filter = 0
+texture_repeat = true
+
+[sub_resource type="PlaneMesh" id="floor_mesh"]
+material = SubResource("floor_mat")
+size = Vector2(6, 6)
+subdivide_width = 5
+subdivide_depth = 5
+
+[sub_resource type="StandardMaterial3D" id="plinth_mat"]
+albedo_texture = ExtResource("4")
+roughness = 1.0
+metallic_specular = 0.0
+uv1_scale = Vector3(3.0, 1.0, 1.0)
+texture_filter = 0
+texture_repeat = true
+
+[sub_resource type="StandardMaterial3D" id="wall_mat"]
+albedo_texture = ExtResource("5")
+roughness = 1.0
+metallic_specular = 0.0
+texture_filter = 0
+texture_repeat = true
+
+[sub_resource type="CylinderMesh" id="plinth_1"]
+material = SubResource("plinth_mat")
+top_radius = 0.45
+bottom_radius = 0.49
+height = 0.16
+radial_segments = 12
+rings = 1
+
+[sub_resource type="CylinderMesh" id="plinth_2"]
+material = SubResource("plinth_mat")
+top_radius = 1.19
+bottom_radius = 1.23
+height = 0.16
+radial_segments = 12
+rings = 1
+
+[sub_resource type="QuadMesh" id="wall"]
+material = SubResource("wall_mat")
+size = Vector2(2.155, 4.0)
+subdivide_width = 1
+subdivide_depth = 3
+
+[node name="Showcase" type="Node3D"]
+script = ExtResource("1")
+title = "PSX HORROR MONSTERS - FREE SAMPLER"
+stage_radius = 4.0
+stage_half_angle = 27.75967
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.98409, 0.17768, 0, -0.17768, 0.98409, 0.0, 1.75, -0.4)
+current = true
+fov = 70.0
+near = 0.05
+far = 200.0
+script = ExtResource("2")
+
+[node name="Floor" type="Node3D" parent="."]
+
+[node name="Tile0_0" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, -6.0, 0.0, -3.8)
+mesh = SubResource("floor_mesh")
+
+[node name="Tile0_1" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, -6.0, 0.0, 2.2)
+mesh = SubResource("floor_mesh")
+
+[node name="Tile1_0" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -3.8)
+mesh = SubResource("floor_mesh")
+
+[node name="Tile1_1" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 2.2)
+mesh = SubResource("floor_mesh")
+
+[node name="Tile2_0" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 6.0, 0.0, -3.8)
+mesh = SubResource("floor_mesh")
+
+[node name="Tile2_1" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 6.0, 0.0, 2.2)
+mesh = SubResource("floor_mesh")
+
+[node name="FillLight" type="OmniLight3D" parent="."]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 4.0, 0.5)
+light_color = Color(0.75, 0.8, 1, 1)
+light_energy = 0.5
+light_specular = 0.0
+omni_range = 7.2
+omni_attenuation = 0.8
+
+[node name="Backdrop" type="Node3D" parent="."]
+
+[node name="Wall1" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.62024, 0.0, 0.78442, 0.0, 1.0, 0.0, -0.78442, 0.0, 0.62024, -4.54961, 2.0, -3.59737)
+mesh = SubResource("wall")
+
+[node name="Wall2" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.85717, 0.0, 0.51504, 0.0, 1.0, 0.0, -0.51504, 0.0, 0.85717, -2.98722, 2.0, -4.97157)
+mesh = SubResource("wall")
+
+[node name="Wall3" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.98378, 0.0, 0.17937, 0.0, 1.0, 0.0, -0.17937, 0.0, 0.98378, -1.04037, 2.0, -5.70593)
+mesh = SubResource("wall")
+
+[node name="Wall4" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.98378, 0.0, -0.17937, 0.0, 1.0, 0.0, 0.17937, 0.0, 0.98378, 1.04037, 2.0, -5.70593)
+mesh = SubResource("wall")
+
+[node name="Wall5" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.85717, 0.0, -0.51504, 0.0, 1.0, 0.0, 0.51504, 0.0, 0.85717, 2.98722, 2.0, -4.97157)
+mesh = SubResource("wall")
+
+[node name="Wall6" type="MeshInstance3D" parent="Backdrop"]
+transform = Transform3D(0.62024, 0.0, -0.78442, 0.0, 1.0, 0.0, 0.78442, 0.0, 0.62024, 4.54961, 2.0, -3.59737)
+mesh = SubResource("wall")
+
+[node name="Stands" type="Node3D" parent="."]
+
+[node name="Shambler" type="Node3D" parent="Stands"]
+transform = Transform3D(0.95056, 0.0, 0.31053, 0.0, 1.0, 0.0, -0.31053, 0.0, 0.95056, -1.24211, 0.0, -3.80226)
+metadata/idle_size = Vector3(0.55318, 1.80484, 0.49603)
+
+[node name="Plinth" type="MeshInstance3D" parent="Stands/Shambler"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.07, 0.0)
+mesh = SubResource("plinth_1")
+
+[node name="Monster" parent="Stands/Shambler" instance=ExtResource("6")]
+active = false
+
+[node name="Spot" type="SpotLight3D" parent="Stands/Shambler"]
+transform = Transform3D(1, 0, 0, 0, 0.2588, 0.9659, 0, -0.9659, 0.2588, 0, 3.40484, 0.6)
+light_color = Color(1, 0.86, 0.68, 1)
+light_energy = 3.0
+light_specular = 0.0
+spot_range = 5.90484
+spot_attenuation = 0.7
+spot_angle = 34.0
+spot_angle_attenuation = 0.6
+
+[node name="Label" type="Label3D" parent="Stands/Shambler"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.18484, 0.0)
+pixel_size = 0.005
+billboard = 1
+double_sided = false
+modulate = Color(0.95, 0.88, 0.78, 1)
+outline_modulate = Color(0, 0, 0, 1)
+text = "Shambler"
+font_size = 40
+outline_size = 10
+line_spacing = -6.0
+
+[node name="Hound" type="Node3D" parent="Stands"]
+transform = Transform3D(0.9858, 0.0, -0.16795, 0.0, 1.0, 0.0, 0.16795, 0.0, 0.9858, 0.6718, 0.0, -3.94318)
+metadata/idle_size = Vector3(0.48868, 0.86448, 1.92598)
+
+[node name="Plinth" type="MeshInstance3D" parent="Stands/Hound"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.07, 0.0)
+mesh = SubResource("plinth_2")
+
+[node name="Monster" parent="Stands/Hound" instance=ExtResource("7")]
+active = false
+
+[node name="Spot" type="SpotLight3D" parent="Stands/Hound"]
+transform = Transform3D(1, 0, 0, 0, 0.2588, 0.9659, 0, -0.9659, 0.2588, 0, 3.0, 0.6)
+light_color = Color(0.78, 0.86, 1, 1)
+light_energy = 3.0
+light_specular = 0.0
+spot_range = 5.5
+spot_attenuation = 0.7
+spot_angle = 34.0
+spot_angle_attenuation = 0.6
+
+[node name="Label" type="Label3D" parent="Stands/Hound"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.24448, 0.0)
+pixel_size = 0.005
+billboard = 1
+double_sided = false
+modulate = Color(0.95, 0.88, 0.78, 1)
+outline_modulate = Color(0, 0, 0, 1)
+text = "Hound"
+font_size = 40
+outline_size = 10
+line_spacing = -6.0
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Help" type="Label" parent="HUD"]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 1200.0
+offset_bottom = 90.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.93, 0.87, 0.78, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 15
+
+[node name="Status" type="Label" parent="HUD"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -38.0
+offset_right = 1200.0
+offset_bottom = -12.0
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.93, 0.87, 0.78, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 15

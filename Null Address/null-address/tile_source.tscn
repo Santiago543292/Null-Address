@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cxg0wgtsi4dgs"]
+
+[ext_resource type="Material" uid="uid://byeg58bjh8o3e" path="res://Assets/BackroomsLikeAssetPack/Walls/Material/CarpetFloor_Mat.tres" id="1_vo382"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_tkhfs"]
+
+[node name="TileSource" type="Node3D" unique_id=812479240]
+
+[node name="FloorTile" type="MeshInstance3D" parent="." unique_id=1038312253]
+mesh = SubResource("PlaneMesh_tkhfs")
+surface_material_override/0 = ExtResource("1_vo382")

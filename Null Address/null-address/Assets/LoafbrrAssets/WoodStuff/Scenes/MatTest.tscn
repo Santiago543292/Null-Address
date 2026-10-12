@@ -1,0 +1,45 @@
+[gd_scene load_steps=9 format=3 uid="uid://ld10sf1jehpn"]
+
+[ext_resource type="Material" uid="uid://cdox84w2wgsjn" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_A.material" id="1_vmonh"]
+[ext_resource type="Material" uid="uid://dg3gdbtbq3eph" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_B.material" id="2_yw2ud"]
+[ext_resource type="Material" uid="uid://ndxumq6hcp6g" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_C.material" id="3_2c8or"]
+[ext_resource type="Material" uid="uid://cxn2hqpkt7n4t" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_D.material" id="4_dv37q"]
+[ext_resource type="Material" uid="uid://bnup33cdwejqv" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_E.material" id="5_bhtca"]
+[ext_resource type="Material" uid="uid://bp1xtsyv2sijx" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_F.material" id="6_yrpd1"]
+[ext_resource type="PackedScene" uid="uid://b8qkwg2kjuoam" path="res://Assets/LoafbrrAssets/WoodStuff/Glb/WoodStuff.glb" id="7_llesi"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_aij30"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = ExtResource("1_vmonh")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, 0)
+material_override = ExtResource("2_yw2ud")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
+material_override = ExtResource("3_2c8or")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, -1.5)
+material_override = ExtResource("4_dv37q")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.5)
+material_override = ExtResource("5_bhtca")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, -3.5)
+material_override = ExtResource("6_yrpd1")
+mesh = SubResource("SphereMesh_aij30")
+
+[node name="WoodStuff" parent="." instance=ExtResource("7_llesi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2.5)

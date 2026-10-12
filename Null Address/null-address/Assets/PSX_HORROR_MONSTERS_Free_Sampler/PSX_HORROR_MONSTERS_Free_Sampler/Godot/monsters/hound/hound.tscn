@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/monster_brain.gd" id="1"]
+[ext_resource type="PackedScene" path="res://monsters/hound/hound_flayed.glb" id="2"]
+[ext_resource type="Texture2D" path="res://monsters/hound/hound_flayed.png" id="3"]
+[ext_resource type="Texture2D" path="res://monsters/hound/hound_black.png" id="4"]
+
+[sub_resource type="CapsuleShape3D" id="body"]
+radius = 0.363
+height = 1.637
+
+[node name="Hound" type="CharacterBody3D"]
+collision_layer = 4
+collision_mask = 7
+floor_snap_length = 0.3
+script = ExtResource("1")
+monster_name = "Hound"
+eye_height = 0.73
+walk_speed = 0.67
+run_speed = 3.53
+walk_animation_speed = 0.67
+run_animation_speed = 3.53
+attack_range = 1.8
+attack_hit_time = 0.62
+attack2_range = 0.0
+attack2_hit_time = 0.36
+damage = 8.0
+max_health = 80.0
+animation_player = NodePath("Model/AnimationPlayer")
+anim_alert = &"Howl"
+skin_textures = {
+"flayed": ExtResource("3"),
+"black": ExtResource("4")
+}
+skin = "flayed"
+model = NodePath("Model")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 1.0, 0.0, 0.0, 0.363, -0.025)
+shape = SubResource("body")
+
+[node name="Model" parent="." instance=ExtResource("2")]
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+path_desired_distance = 0.6
+target_desired_distance = 0.6
+path_height_offset = 0.0

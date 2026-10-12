@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://b6bgsl1w0vp0t"]
+
+[ext_resource type="Script" uid="uid://bsp0wtd6crbsc" path="res://addons/godoplayer/Nodes/player_controller_3d.gd" id="1_xhfnw"]
+[ext_resource type="Shader" uid="uid://ds5esj2xmsfmq" path="res://TapeLook.gdshader" id="2_tape"]
+[ext_resource type="Script" uid="uid://bnxh7okvjh008" path="res://hub/filming.gd" id="3_film"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vcv0m"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tape"]
+shader = ExtResource("2_tape")
+shader_parameter/smearing = 0.5
+shader_parameter/color_offset = 0.005
+shader_parameter/sharpening = 0.4
+shader_parameter/static_noise = 0.08
+shader_parameter/crack_center = Vector2(0.15, 0.85)
+shader_parameter/crack_intensity = 0.4
+shader_parameter/crack_size = 0.35
+shader_parameter/vertical_jitter = 0.002
+shader_parameter/scanline_opacity = 0.1
+shader_parameter/vignette_intensity = 0.3
+
+[node name="Player" type="Node3D" unique_id=618014723]
+
+[node name="PlayerController3D" type="CharacterBody3D" parent="." unique_id=1651404223]
+script = ExtResource("1_xhfnw")
+metadata/_custom_type_script = "uid://bsp0wtd6crbsc"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PlayerController3D" unique_id=771811496]
+shape = SubResource("CapsuleShape3D_vcv0m")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="PlayerController3D" unique_id=414581924]
+
+[node name="Camera3D" type="Camera3D" parent="PlayerController3D/SpringArm3D" unique_id=804652490]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0.449669, 0)
+
+[node name="TapeLayer" type="CanvasLayer" parent="." unique_id=1122334455]
+
+[node name="TapeOverlay" type="ColorRect" parent="TapeLayer" unique_id=502868027]
+material = SubResource("ShaderMaterial_tape")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("3_film")

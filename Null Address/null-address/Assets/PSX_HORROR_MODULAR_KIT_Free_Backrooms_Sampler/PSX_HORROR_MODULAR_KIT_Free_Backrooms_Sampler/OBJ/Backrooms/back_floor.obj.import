@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://shy4gotu4kvm"
+path="res://.godot/imported/back_floor.obj-03c8d6fdcd2f2b8df060fb800bb37ade.mesh"
+
+[deps]
+
+files=["res://.godot/imported/back_floor.obj-03c8d6fdcd2f2b8df060fb800bb37ade.mesh"]
+
+source_file="res://Assets/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/OBJ/Backrooms/back_floor.obj"
+dest_files=["res://.godot/imported/back_floor.obj-03c8d6fdcd2f2b8df060fb800bb37ade.mesh", "res://.godot/imported/back_floor.obj-03c8d6fdcd2f2b8df060fb800bb37ade.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

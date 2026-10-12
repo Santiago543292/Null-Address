@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://w87y5uscxk1h"
+
+[deps]
+
+files=["res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.name.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.triangles.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.bones.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.height.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.skins.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.walk.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.run.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.attack.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.clips.translation"]
+
+source_file="res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.csv"
+dest_files=["res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.name.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.triangles.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.bones.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.height.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.skins.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.walk.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.run.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.attack.translation", "res://Assets/PSX_HORROR_MONSTERS_Free_Sampler/PSX_HORROR_MONSTERS_Free_Sampler/Catalog/monsters.clips.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

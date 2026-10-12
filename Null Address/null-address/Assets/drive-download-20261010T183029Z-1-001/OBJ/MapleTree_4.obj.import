@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://g76733x18e8v"
+path="res://.godot/imported/MapleTree_4.obj-ad01eae123a7da5dc4db854da75f4b79.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MapleTree_4.obj-ad01eae123a7da5dc4db854da75f4b79.mesh"]
+
+source_file="res://Assets/drive-download-20261010T183029Z-1-001/OBJ/MapleTree_4.obj"
+dest_files=["res://.godot/imported/MapleTree_4.obj-ad01eae123a7da5dc4db854da75f4b79.mesh", "res://.godot/imported/MapleTree_4.obj-ad01eae123a7da5dc4db854da75f4b79.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

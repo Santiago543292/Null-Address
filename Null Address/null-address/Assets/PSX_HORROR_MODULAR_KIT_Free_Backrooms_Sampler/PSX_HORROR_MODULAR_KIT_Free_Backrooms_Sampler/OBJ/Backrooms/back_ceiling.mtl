@@ -1,0 +1,10 @@
+# PSX Horror Modular Kit by bitkiln - materials of back_ceiling
+
+newmtl back_ceiling
+Ka 0.000 0.000 0.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 0
+d 1.0
+illum 1
+map_Kd ../../Textures/back_ceiling.png

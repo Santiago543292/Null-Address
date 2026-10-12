@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dscvfspyjj7h"
+path.s3tc="res://.godot/imported/MOD_16_Floor_DryVariant_Cenji_Tile_Roughness.png-845b75dc6aaba98da6bc3339f137875e.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "bd6c9d07e09160d328f139de373e43e3"
+}
+
+[deps]
+
+source_file="res://Assets/Cenji_BackroomsLevel37_Poolrooms_FREE/GLB/MOD_16_Floor_DryVariant_Cenji_Tile_Roughness.png"
+dest_files=["res://.godot/imported/MOD_16_Floor_DryVariant_Cenji_Tile_Roughness.png-845b75dc6aaba98da6bc3339f137875e.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

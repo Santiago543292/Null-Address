@@ -1,0 +1,73 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dtqhvc1snbgsg"
+path="res://.godot/imported/FlowerArrangementPack.gltf-a32c8a5fc9cb870b0569a466affccbf2.scn"
+
+[deps]
+
+source_file="res://Assets/FlowerArrangementPack/Gltf/FlowerArrangementPack.gltf"
+dest_files=["res://.godot/imported/FlowerArrangementPack.gltf-a32c8a5fc9cb870b0569a466affccbf2.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"FillerFlower": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/FlowerArrangementPack/Material/Fill_Flowers_Mats.tres",
+"use_external/path": "uid://m20tdqtbc23"
+},
+"Flowers": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/FlowerArrangementPack/Material/Flower_Mat.tres",
+"use_external/path": "uid://dy28gmeylnp46"
+},
+"Foam": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/FlowerArrangementPack/Material/Foam_Mat.tres",
+"use_external/path": "uid://1pkq4yj4fcqh"
+},
+"Greenery": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/FlowerArrangementPack/Material/Greenery_Mat.tres",
+"use_external/path": "uid://cxp8wwxbrruip"
+},
+"Plastic": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/FlowerArrangementPack/Material/Plastic_Mat.tres",
+"use_external/path": "uid://beigbmdwk6dkh"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=0
+gltf/texture_map_mode=0

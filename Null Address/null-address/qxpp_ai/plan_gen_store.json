@@ -1,0 +1,22 @@
+{
+  "act": 1,
+  "act_title": "THE CLOSED STORE",
+  "venue": "store",
+  "cols": 4,
+  "rows": 3,
+  "rooms": 12,
+  "dread": 0.45,
+  "size": [
+    32.0,
+    24.0,
+    2.7
+  ],
+  "lights": {
+    "total": 14,
+    "dead": 6,
+    "failing": 3,
+    "working": 5
+  },
+  "props": 48,
+  "doors": 0
+}

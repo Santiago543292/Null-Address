@@ -1,0 +1,366 @@
+[gd_scene load_steps=84 format=3 uid="uid://sc0rjb422agi"]
+
+[ext_resource type="PackedScene" uid="uid://cl6ws1ksdk402" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/shovel.tscn" id="1_m2jcq"]
+[ext_resource type="Material" uid="uid://cdox84w2wgsjn" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_A.material" id="2_2iprj"]
+[ext_resource type="PackedScene" uid="uid://qlx78w7ljub" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/axe.tscn" id="2_08n2w"]
+[ext_resource type="Material" uid="uid://ndxumq6hcp6g" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_C.material" id="3_egb1g"]
+[ext_resource type="PackedScene" uid="uid://ox80p0g6sjko" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/fire_poker.tscn" id="3_qitru"]
+[ext_resource type="PackedScene" uid="uid://botil5mjuwtpo" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_round_a.tscn" id="4_owmdu"]
+[ext_resource type="Material" uid="uid://cxn2hqpkt7n4t" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_D.material" id="4_t1y7t"]
+[ext_resource type="Material" uid="uid://dg3gdbtbq3eph" path="res://Assets/LoafbrrAssets/WoodStuff/Material/WoodMetalBasket_B.material" id="5_iyhpx"]
+[ext_resource type="PackedScene" uid="uid://cfm1phjbapjx7" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/stool_a.tscn" id="5_qpvcv"]
+[ext_resource type="PackedScene" uid="uid://dgti4eioxcjg0" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/stool_b.tscn" id="6_atory"]
+[ext_resource type="PackedScene" uid="uid://7epdt4qfyh35" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_round_b.tscn" id="7_bdpjy"]
+[ext_resource type="PackedScene" uid="uid://eqpcw73h1p47" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/chair_b.tscn" id="8_lvudb"]
+[ext_resource type="PackedScene" uid="uid://c8pe8177ya5ru" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/shelf_b.tscn" id="9_8k230"]
+[ext_resource type="PackedScene" uid="uid://f2v8gqhmkoyj" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/book_shelf_a.tscn" id="10_pi5l8"]
+[ext_resource type="PackedScene" uid="uid://d3e414plm6slv" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/book_shelf_b.tscn" id="11_q1j06"]
+[ext_resource type="PackedScene" uid="uid://cs7ra2uu7krob" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_round_c.tscn" id="12_qfta4"]
+[ext_resource type="PackedScene" uid="uid://c1bcjt85teug" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/book_shelf_c.tscn" id="13_j4e5s"]
+[ext_resource type="PackedScene" uid="uid://cjyktvlj7scwe" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/tray_a.tscn" id="14_1ox3d"]
+[ext_resource type="PackedScene" uid="uid://c7d1wrev27bmw" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/tray_b.tscn" id="15_pd4qj"]
+[ext_resource type="PackedScene" uid="uid://44cwfd78pf7s" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/chair_rockign.tscn" id="16_bcoa5"]
+[ext_resource type="PackedScene" uid="uid://ds3b8io2bltld" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_side_a.tscn" id="17_s75ll"]
+[ext_resource type="PackedScene" uid="uid://bfr2vy2yi571d" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/candle_holer.tscn" id="18_m8chs"]
+[ext_resource type="PackedScene" uid="uid://gg0lst56d801" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_side_b.tscn" id="19_jgaaq"]
+[ext_resource type="PackedScene" uid="uid://grsr7frpnya1" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/cabinet_b_static.tscn" id="20_xonju"]
+[ext_resource type="PackedScene" uid="uid://cmqwgr6yh1wlj" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/cabinet_a_static.tscn" id="21_fx54j"]
+[ext_resource type="PackedScene" uid="uid://vd3nlgff7cba" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/barrel_a.tscn" id="22_2rrqa"]
+[ext_resource type="PackedScene" uid="uid://caj26hsylwv31" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basin.tscn" id="23_nv2lp"]
+[ext_resource type="PackedScene" uid="uid://di5xvaypb68b4" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/crate_static.tscn" id="24_jmtqe"]
+[ext_resource type="PackedScene" uid="uid://b62neu2jlymxp" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/crate_open.tscn" id="25_cwqks"]
+[ext_resource type="PackedScene" uid="uid://dwtfx3jo8aygj" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/barrel_b_static.tscn" id="26_7lxx0"]
+[ext_resource type="PackedScene" uid="uid://hdxgkxt1sbsc" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/barrel_a_open.tscn" id="27_whky7"]
+[ext_resource type="PackedScene" uid="uid://icjy8s6klldw" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/barrel_b_open.tscn" id="28_s5kd8"]
+[ext_resource type="PackedScene" uid="uid://c2vfhhiwxhkcp" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/mug.tscn" id="29_prjow"]
+[ext_resource type="PackedScene" uid="uid://56hg60bj66pc" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_rect_a.tscn" id="30_58p3t"]
+[ext_resource type="PackedScene" uid="uid://06sqefw0k73j" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/chair_a.tscn" id="31_6p0s7"]
+[ext_resource type="PackedScene" uid="uid://c7bptqjjt5cfq" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_rect_b.tscn" id="32_vxmxd"]
+[ext_resource type="PackedScene" uid="uid://dljp1eph81oxj" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_square_b.tscn" id="33_gbwo1"]
+[ext_resource type="PackedScene" uid="uid://db0hmwlcqftw4" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_square_a.tscn" id="34_uf0hc"]
+[ext_resource type="PackedScene" uid="uid://b3nmw0dovilbb" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_rect_c.tscn" id="35_g54u7"]
+[ext_resource type="PackedScene" uid="uid://1whh7do6hg0b" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/bench_a.tscn" id="36_nfuff"]
+[ext_resource type="PackedScene" uid="uid://cmd8473glk1h7" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/shelf_a.tscn" id="37_vf0td"]
+[ext_resource type="PackedScene" uid="uid://bj7jv8xlcrwcr" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/shelf_d.tscn" id="38_cc485"]
+[ext_resource type="PackedScene" uid="uid://dsygy0n4ryiw2" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/shelf_c.tscn" id="39_mbxox"]
+[ext_resource type="PackedScene" uid="uid://dlpbkd3vdywjd" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/container_c.tscn" id="40_uyopt"]
+[ext_resource type="PackedScene" uid="uid://dw0ydegakgaff" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/container_b.tscn" id="41_rdflb"]
+[ext_resource type="PackedScene" uid="uid://c5qou4xv7jdx1" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/container_d.tscn" id="42_bff1x"]
+[ext_resource type="PackedScene" uid="uid://bh6tv5eodiaw7" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/container_a.tscn" id="43_w1gp6"]
+[ext_resource type="PackedScene" uid="uid://bvnn14clpp6n5" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/pot_c.tscn" id="44_0hnhi"]
+[ext_resource type="PackedScene" uid="uid://s67e5odcdtn3" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/pot_b.tscn" id="45_cy7m7"]
+[ext_resource type="PackedScene" uid="uid://c3uyskjd4cjak" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/kettle.tscn" id="46_1vpqd"]
+[ext_resource type="PackedScene" uid="uid://crespa5h8fhy4" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/pot_a.tscn" id="47_x0yl4"]
+[ext_resource type="PackedScene" uid="uid://cbxela5pjpxo4" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/plate_b.tscn" id="48_2ppy7"]
+[ext_resource type="PackedScene" uid="uid://i2tlaybt72ly" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/plate_a.tscn" id="49_lmpcf"]
+[ext_resource type="PackedScene" uid="uid://b0ei0jpcwob3" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/rolling_pin.tscn" id="50_4gknk"]
+[ext_resource type="PackedScene" uid="uid://dcjnmuwvpa3on" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/mortar_pestle.tscn" id="51_jbj50"]
+[ext_resource type="PackedScene" uid="uid://wpa3orjltwlh" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/pot_lid.tscn" id="52_gg0xx"]
+[ext_resource type="PackedScene" uid="uid://bq7xxxedtohqa" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/pestle.tscn" id="53_kwgnb"]
+[ext_resource type="PackedScene" uid="uid://dji1w7q7522we" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/mortar.tscn" id="54_6plv3"]
+[ext_resource type="PackedScene" uid="uid://clnvjntndxchf" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_rect_small_a.tscn" id="55_mvgn6"]
+[ext_resource type="PackedScene" uid="uid://d21emyjlkcess" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_square_mini_a.tscn" id="56_q8om8"]
+[ext_resource type="PackedScene" uid="uid://dydlbfab3h6l2" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_rect_small_b.tscn" id="57_sb3xj"]
+[ext_resource type="PackedScene" uid="uid://dqanwlpc0yrnc" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_square_mini_b.tscn" id="58_ndqkf"]
+[ext_resource type="PackedScene" uid="uid://cqonkpu1a5hxd" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/crate_lid.tscn" id="59_m0u3v"]
+[ext_resource type="PackedScene" uid="uid://b07whbjoqgvut" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_round_mini_a.tscn" id="60_0ei3m"]
+[ext_resource type="PackedScene" uid="uid://c7670a4re36cw" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basket_b.tscn" id="61_gr163"]
+[ext_resource type="PackedScene" uid="uid://blsp8cv068nd7" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basket_d.tscn" id="62_ug55f"]
+[ext_resource type="PackedScene" uid="uid://bwc3fhxrskugo" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basket_e.tscn" id="63_lnuc0"]
+[ext_resource type="PackedScene" uid="uid://b0emla6lebqtv" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basket_a.tscn" id="64_y6nub"]
+[ext_resource type="PackedScene" uid="uid://3krnhwvuqyih" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/basket_c.tscn" id="65_45kj8"]
+[ext_resource type="PackedScene" uid="uid://dhwhxgl323e4f" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/chair_basket_a.tscn" id="66_woq83"]
+[ext_resource type="PackedScene" uid="uid://cx08bt8x5klef" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/chair_basket_b.tscn" id="67_gjwcj"]
+[ext_resource type="PackedScene" uid="uid://d1cvtm6hwtt3k" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/bench_b.tscn" id="68_u0ftm"]
+[ext_resource type="PackedScene" uid="uid://cw2dn5fp375ni" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/table_round_mini_b.tscn" id="69_pl28l"]
+[ext_resource type="PackedScene" uid="uid://cb7jwxee3xcte" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/cabinet_a_grp.tscn" id="70_l6csk"]
+[ext_resource type="PackedScene" uid="uid://d2i0bgju0r4w5" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/cabinet_b_grp.tscn" id="71_62kgy"]
+[ext_resource type="PackedScene" uid="uid://dexuu4tv701me" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/barrel_b_grp.tscn" id="72_clme8"]
+[ext_resource type="PackedScene" uid="uid://ban3vcxy6mjmq" path="res://Assets/LoafbrrAssets/WoodStuff/Scenes/WoodObjects/crate_a_grp.tscn" id="73_fsh8f"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_c1vd3"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_06neh"]
+sky_material = SubResource("ProceduralSkyMaterial_c1vd3")
+
+[sub_resource type="Environment" id="Environment_g1m5h"]
+background_mode = 2
+sky = SubResource("Sky_06neh")
+tonemap_mode = 2
+tonemap_exposure = 2.0
+tonemap_white = 0.9
+ssr_enabled = true
+ssao_enabled = true
+ssao_light_affect = 1.0
+ssil_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0mrjy"]
+albedo_color = Color(0.33715, 0.55, 0.3135, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lvfrs"]
+size = Vector2(60, 60)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_faktw"]
+data = PackedVector3Array(30, 0, 30, -30, 0, 30, 30, 0, -30, -30, 0, 30, -30, 0, -30, 30, 0, -30)
+
+[node name="WoodStuff" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_g1m5h")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.729255, -0.424247, 0.536843, -5.38241e-09, 0.784582, 0.620026, -0.684242, -0.452157, 0.57216, 0, 2.48943, 4.09237)
+shadow_enabled = true
+shadow_bias = 0.0
+shadow_blur = 0.75
+directional_shadow_blend_splits = true
+directional_shadow_fade_start = 0.9
+directional_shadow_max_distance = 75.0
+directional_shadow_pancake_size = 0.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_0mrjy")
+mesh = SubResource("PlaneMesh_lvfrs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_faktw")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_0mrjy")
+mesh = SubResource("PlaneMesh_lvfrs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D2/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_faktw")
+
+[node name="Axe" parent="." instance=ExtResource("2_08n2w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.72215, 0.1294, 5.38292)
+
+[node name="Barrel_A" parent="." instance=ExtResource("22_2rrqa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.50737, 0.175, 4.80135)
+
+[node name="Barrel_A_Open" parent="." instance=ExtResource("27_whky7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8436, 0.175, 4.91452)
+
+[node name="Barrel_B_Grp" parent="." instance=ExtResource("72_clme8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3233, -4.76837e-07, 5.12685)
+
+[node name="Barrel_B_Open" parent="." instance=ExtResource("28_s5kd8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21839, -2.38419e-07, 5.97918)
+
+[node name="Barrel_B_Static" parent="." instance=ExtResource("26_7lxx0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.73602, -2.38419e-07, 5.87804)
+
+[node name="Basin" parent="." instance=ExtResource("23_nv2lp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.771999, 0.5709, 4.8947)
+
+[node name="Basket_A" parent="." instance=ExtResource("64_y6nub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0585, 0.9355, 3.051)
+
+[node name="Basket_B" parent="." instance=ExtResource("61_gr163")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.705188, 0.9641, 3.25748)
+
+[node name="Basket_C" parent="." instance=ExtResource("65_45kj8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.150804, 0.4528, 3.48181)
+
+[node name="Basket_D" parent="." instance=ExtResource("62_ug55f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.886904, 0.2465, 3.97363)
+
+[node name="Basket_E" parent="." instance=ExtResource("63_lnuc0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.199613, 0.00500023, 2.67612)
+
+[node name="Bench_A" parent="." instance=ExtResource("36_nfuff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42673, -2.38419e-07, 5.4804)
+
+[node name="Bench_B" parent="." instance=ExtResource("68_u0ftm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.39152, -2.38419e-07, 4.63031)
+
+[node name="BookShelf_A" parent="." instance=ExtResource("10_pi5l8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7682, -4.76837e-07, 0.350454)
+
+[node name="BookShelf_B" parent="." instance=ExtResource("11_q1j06")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.74509, -4.76837e-07, 0.507848)
+
+[node name="BookShelf_C" parent="." instance=ExtResource("13_j4e5s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.916224, -4.76837e-07, 0.111635)
+
+[node name="Cabinet_A_Grp" parent="." instance=ExtResource("70_l6csk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.45799, -2.38419e-07, 0.323088)
+
+[node name="Cabinet_A_Static" parent="." instance=ExtResource("21_fx54j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.33722, -2.38419e-07, 0.399381)
+material_override = ExtResource("3_egb1g")
+
+[node name="Cabinet_B_grp" parent="." instance=ExtResource("71_62kgy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60606, -2.38419e-07, 0.341774)
+
+[node name="Cabinet_B_Static" parent="." instance=ExtResource("20_xonju")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.38144, -2.38419e-07, 0.297609)
+material_override = ExtResource("3_egb1g")
+
+[node name="CandleHoler" parent="." instance=ExtResource("18_m8chs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.343586, 0.5709, 2.09469)
+
+[node name="Chair_A" parent="." instance=ExtResource("31_6p0s7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.03838, -2.38419e-07, 1.94042)
+
+[node name="Chair_B" parent="." instance=ExtResource("8_lvudb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.73034, -2.38419e-07, 3.02907)
+
+[node name="Chair_Basket_A" parent="." instance=ExtResource("66_woq83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77759, -2.38419e-07, 2.78844)
+
+[node name="Chair_Basket_B" parent="." instance=ExtResource("67_gjwcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.842873, 1.19209e-07, 1.09675)
+
+[node name="Chair_Rockign" parent="." instance=ExtResource("16_bcoa5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.41762, 5.96046e-08, 4.13924)
+
+[node name="Container_A" parent="." instance=ExtResource("43_w1gp6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.99528, -2.38419e-07, 5.65197)
+
+[node name="Container_B" parent="." instance=ExtResource("41_rdflb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.96589, 0, 5.67153)
+
+[node name="Container_C" parent="." instance=ExtResource("40_uyopt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.82834, 0, 6.49525)
+
+[node name="Container_D" parent="." instance=ExtResource("42_bff1x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.64897, -2.38419e-07, 6.41431)
+
+[node name="Crate_A_Grp" parent="." instance=ExtResource("73_fsh8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.542137, 0.0250002, 5.95881)
+
+[node name="Crate_Lid" parent="." instance=ExtResource("59_m0u3v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0117059, 0.025, 5.79837)
+
+[node name="Crate_Open" parent="." instance=ExtResource("25_cwqks")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.550617, 0.025, 5.68519)
+
+[node name="Crate_Static" parent="." instance=ExtResource("24_jmtqe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.129395, 0.325, 6.43089)
+
+[node name="FirePoker" parent="." instance=ExtResource("3_qitru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54832, 0.693401, 5.25625)
+
+[node name="Kettle" parent="." instance=ExtResource("46_1vpqd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.57021, 0.6583, 1.93432)
+
+[node name="Mortar" parent="." instance=ExtResource("54_6plv3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.39793, 0.5709, 1.94401)
+
+[node name="MortarPestle" parent="." instance=ExtResource("51_jbj50")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.33195, 0.5709, 2.16796)
+
+[node name="Mug" parent="." instance=ExtResource("29_prjow")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.40068, 0.5709, 2.06643)
+
+[node name="Pestle" parent="." instance=ExtResource("53_kwgnb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.17588, 0.6212, 2.09237)
+
+[node name="Plate_A" parent="." instance=ExtResource("49_lmpcf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.86757, 0.5702, 1.99726)
+
+[node name="Plate_B" parent="." instance=ExtResource("48_2ppy7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.34015, 0.5709, 2.32581)
+
+[node name="Pot_A" parent="." instance=ExtResource("47_x0yl4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66006, 0.7161, 2.22206)
+
+[node name="Pot_B" parent="." instance=ExtResource("45_cy7m7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.97132, 0.6197, 2.25665)
+
+[node name="Pot_C" parent="." instance=ExtResource("44_0hnhi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.11535, 0.5938, 2.29123)
+
+[node name="Pot_Lid" parent="." instance=ExtResource("52_gg0xx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.00591, 0.5575, 1.82434)
+
+[node name="RollingPin" parent="." instance=ExtResource("50_4gknk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4612, 0.5943, 1.81569)
+
+[node name="Shelf_A" parent="." instance=ExtResource("37_vf0td")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26952, 1.53463, -0.00971377)
+
+[node name="Shelf_B" parent="." instance=ExtResource("9_8k230")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0576046, 1.53463, -0.00615805)
+
+[node name="Shelf_C" parent="." instance=ExtResource("39_mbxox")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0440447, 1.29215, 0.00193895)
+
+[node name="Shelf_D" parent="." instance=ExtResource("38_cc485")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.302361, 1.08458, -0.00168006)
+
+[node name="Shovel" parent="." instance=ExtResource("1_m2jcq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.35295, 0.865, 5.21761)
+
+[node name="Stool_A" parent="." instance=ExtResource("5_qpvcv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.79388, -2.38419e-07, 3.8646)
+
+[node name="Stool_B" parent="." instance=ExtResource("6_atory")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.36178, 0.5532, 2.58417)
+
+[node name="Table_Rect_A" parent="." instance=ExtResource("30_58p3t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0302846, -2.38419e-07, 1.86955)
+material_override = ExtResource("2_2iprj")
+
+[node name="Table_Rect_B" parent="." instance=ExtResource("32_vxmxd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.54012, -2.38419e-07, 2.09242)
+material_override = ExtResource("5_iyhpx")
+
+[node name="Table_Rect_c" parent="." instance=ExtResource("35_g54u7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.814261, -2.38419e-07, 3.13896)
+
+[node name="Table_Rect_Small_A" parent="." instance=ExtResource("55_mvgn6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.486499, -2.38419e-07, 3.48649)
+material_override = ExtResource("3_egb1g")
+
+[node name="Table_Rect_Small_B" parent="." instance=ExtResource("57_sb3xj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.20385, -2.38419e-07, 3.54077)
+material_override = ExtResource("5_iyhpx")
+
+[node name="Table_Round_A" parent="." instance=ExtResource("4_owmdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.51641, -2.38419e-07, 2.1503)
+
+[node name="Table_Round_B" parent="." instance=ExtResource("7_bdpjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.99181, -2.38419e-07, 3.76275)
+
+[node name="Table_Round_C" parent="." instance=ExtResource("12_qfta4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.56235, 0, 3.39218)
+
+[node name="Table_Round_Mini_A" parent="." instance=ExtResource("60_0ei3m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0783091, -2.38419e-07, 4.72893)
+
+[node name="Table_Round_Mini_B" parent="." instance=ExtResource("69_pl28l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.913737, -2.38419e-07, 4.71345)
+
+[node name="Table_Side_A" parent="." instance=ExtResource("17_s75ll")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.50086, -2.38419e-07, 2.61698)
+
+[node name="Table_Side_B" parent="." instance=ExtResource("19_jgaaq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.37638, 0, 2.75201)
+
+[node name="Table_Square_A" parent="." instance=ExtResource("34_uf0hc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.71821, -2.38419e-07, 4.88858)
+
+[node name="Table_Square_B" parent="." instance=ExtResource("33_gbwo1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8943, 5.96046e-08, 4.771)
+material_override = ExtResource("4_t1y7t")
+
+[node name="Table_Square_Mini_A" parent="." instance=ExtResource("56_q8om8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.77997, -2.38419e-07, 5.68638)
+
+[node name="Table_Square_Mini_B" parent="." instance=ExtResource("58_ndqkf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.85561, -2.38419e-07, 6.38888)
+
+[node name="Tray_A" parent="." instance=ExtResource("14_1ox3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1289, 0.5709, 2.06735)
+
+[node name="Tray_B" parent="." instance=ExtResource("15_pd4qj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.17463, 0.5709, 1.86525)

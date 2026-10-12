@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://Maps/house.tscn" id="1_house"]
+[ext_resource type="Script" path="res://dev/screenshot_survey.gd" id="2_shot"]
+
+[node name="SurveyHouse" type="Node3D"]
+
+[node name="House" parent="." instance=ExtResource("1_house")]
+
+[node name="Survey" type="Node" parent="."]
+script = ExtResource("2_shot")

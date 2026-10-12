@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dntlkg0k7hrlx"
+path="res://.godot/imported/05 - Scared Of The wall - Scared of the wall.ogg-b0b0c02585ad36d01acea2fadecdcf9f.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Music/05 - Scared Of The wall - Scared of the wall.ogg"
+dest_files=["res://.godot/imported/05 - Scared Of The wall - Scared of the wall.ogg-b0b0c02585ad36d01acea2fadecdcf9f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

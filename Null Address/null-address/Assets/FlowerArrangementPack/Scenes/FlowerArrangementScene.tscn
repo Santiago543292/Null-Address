@@ -1,0 +1,1235 @@
+[gd_scene load_steps=170 format=3 uid="uid://d4aulkvvk220f"]
+
+[ext_resource type="PackedScene" uid="uid://y0uqqu28p8y5" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_1.tscn" id="1_4x7a7"]
+[ext_resource type="PackedScene" uid="uid://rnrrxjlksbhn" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_2.tscn" id="2_mx1dl"]
+[ext_resource type="PackedScene" uid="uid://be4caj44mvwwl" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_3.tscn" id="3_20oj3"]
+[ext_resource type="PackedScene" uid="uid://c3xey3m7uu01a" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_4.tscn" id="4_qb1ki"]
+[ext_resource type="PackedScene" uid="uid://dy4y3h4qkq3ko" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_5.tscn" id="5_xy25i"]
+[ext_resource type="PackedScene" uid="uid://bve22cjnprlrx" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_6.tscn" id="6_2u8t1"]
+[ext_resource type="PackedScene" uid="uid://tp0rtjuuc2is" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_7.tscn" id="7_wefwx"]
+[ext_resource type="PackedScene" uid="uid://c432iwc30ngce" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_8.tscn" id="8_td0hn"]
+[ext_resource type="PackedScene" uid="uid://pe0l0gximxdk" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_9.tscn" id="9_osw31"]
+[ext_resource type="PackedScene" uid="uid://dw60vsfetlhw4" path="res://Assets/FlowerArrangementPack/Scenes/Arrangements/flower_arrangement_10.tscn" id="10_pj22x"]
+[ext_resource type="PackedScene" uid="uid://b78kiihepk8rv" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_a_1.tscn" id="11_dnxgp"]
+[ext_resource type="PackedScene" uid="uid://gbtnto86m6g3" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_a_2.tscn" id="12_1vm8g"]
+[ext_resource type="PackedScene" uid="uid://clwk6oibs6pmo" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_a_3.tscn" id="13_vqrh8"]
+[ext_resource type="PackedScene" uid="uid://d0t5xn7xwggra" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_b_1.tscn" id="14_24gdd"]
+[ext_resource type="PackedScene" uid="uid://dwgyogxmrq05q" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_b_2.tscn" id="15_ciwd2"]
+[ext_resource type="PackedScene" uid="uid://c4v140v0ako7" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_b_3.tscn" id="16_onriy"]
+[ext_resource type="PackedScene" uid="uid://jrv4k5681k7f" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_c_1.tscn" id="17_sqjqk"]
+[ext_resource type="PackedScene" uid="uid://d0nsq23ef3fh6" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_c_2.tscn" id="18_jjiyq"]
+[ext_resource type="PackedScene" uid="uid://biqdk11u8o64h" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_fern_c_3.tscn" id="19_vvlf8"]
+[ext_resource type="PackedScene" uid="uid://txs3ctuucwir" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_1.tscn" id="20_xw2mm"]
+[ext_resource type="PackedScene" uid="uid://cdfvgsd1ojfye" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_2.tscn" id="21_1ihl0"]
+[ext_resource type="PackedScene" uid="uid://qbdfwqeu537v" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_3.tscn" id="22_q4kwr"]
+[ext_resource type="PackedScene" uid="uid://nrwb6ks1f040" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_4.tscn" id="23_7nmcr"]
+[ext_resource type="PackedScene" uid="uid://wxxfxnhayj2j" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_5.tscn" id="24_qisvn"]
+[ext_resource type="PackedScene" uid="uid://beha4adtenliw" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_6.tscn" id="25_rwsts"]
+[ext_resource type="PackedScene" uid="uid://eup2w22joolv" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_ivy_leaf.tscn" id="26_grs5k"]
+[ext_resource type="PackedScene" uid="uid://nmq1625u7sf0" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_1.tscn" id="27_1rnji"]
+[ext_resource type="PackedScene" uid="uid://bkxjprij2svaa" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_2.tscn" id="28_ly57y"]
+[ext_resource type="PackedScene" uid="uid://dkkd1t2cvnvuk" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_3.tscn" id="29_te7in"]
+[ext_resource type="PackedScene" uid="uid://cbwsmib0k1nhq" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_4.tscn" id="30_unb2w"]
+[ext_resource type="PackedScene" uid="uid://dh0ldenhnukt7" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_5.tscn" id="31_gor4b"]
+[ext_resource type="PackedScene" uid="uid://j01ak1v5ixe3" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_6.tscn" id="32_m7yej"]
+[ext_resource type="PackedScene" uid="uid://c7l1wvr3yeesd" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_myrtle_7.tscn" id="33_v4yeb"]
+[ext_resource type="PackedScene" uid="uid://dpgnic80os5t5" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_1.tscn" id="34_15hhy"]
+[ext_resource type="PackedScene" uid="uid://b266llpphjqgi" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_2.tscn" id="35_axlba"]
+[ext_resource type="PackedScene" uid="uid://d13c0a4os7gjk" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_3.tscn" id="36_ffqoh"]
+[ext_resource type="PackedScene" uid="uid://du5i775spno3w" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_4.tscn" id="37_vtwgw"]
+[ext_resource type="PackedScene" uid="uid://cqdmeyt7cpcnr" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_5.tscn" id="38_phovo"]
+[ext_resource type="PackedScene" uid="uid://c7myqw0t3pmvo" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_6.tscn" id="39_kincs"]
+[ext_resource type="PackedScene" uid="uid://cv10n3g8vos2q" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_7.tscn" id="40_utih6"]
+[ext_resource type="PackedScene" uid="uid://tchwhfkm0juo" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_8.tscn" id="41_v6inq"]
+[ext_resource type="PackedScene" uid="uid://co0d812mfl8p1" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_9.tscn" id="42_ueobk"]
+[ext_resource type="PackedScene" uid="uid://qcp4tx6xqsox" path="res://Assets/FlowerArrangementPack/Scenes/Greenery/greenery_sde_10.tscn" id="43_nwnih"]
+[ext_resource type="PackedScene" uid="uid://bgiis5th7807q" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_1.tscn" id="44_5gyu3"]
+[ext_resource type="PackedScene" uid="uid://s8lyg3hq6fg5" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_2.tscn" id="45_w0v8w"]
+[ext_resource type="PackedScene" uid="uid://ch3v2hmxtwy20" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_3.tscn" id="46_ht85u"]
+[ext_resource type="PackedScene" uid="uid://q68udyx2ns66" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_4.tscn" id="47_lkcqr"]
+[ext_resource type="PackedScene" uid="uid://vwpwemus1iol" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_5.tscn" id="48_rsh7q"]
+[ext_resource type="PackedScene" uid="uid://b8qhau8ga48nn" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_6.tscn" id="49_ptgy8"]
+[ext_resource type="PackedScene" uid="uid://cvnhiosh1jevl" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_7.tscn" id="50_rd844"]
+[ext_resource type="PackedScene" uid="uid://c287jbtkhr2nf" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_a_8.tscn" id="51_1vd2g"]
+[ext_resource type="PackedScene" uid="uid://bqltt1v6etf6n" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_1.tscn" id="52_dyfk8"]
+[ext_resource type="PackedScene" uid="uid://nuorywqbw1jd" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_2.tscn" id="53_6cqyl"]
+[ext_resource type="PackedScene" uid="uid://biw6ucx60qta7" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_3.tscn" id="54_isvgb"]
+[ext_resource type="PackedScene" uid="uid://coeqexgs7vr8" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_4.tscn" id="55_4g6vg"]
+[ext_resource type="PackedScene" uid="uid://c4xrgyu0cf22d" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_5.tscn" id="56_k372b"]
+[ext_resource type="PackedScene" uid="uid://c26wk1or1h2vr" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_6.tscn" id="57_kdjay"]
+[ext_resource type="PackedScene" uid="uid://ec7mrgk448n2" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_7.tscn" id="58_bu5p7"]
+[ext_resource type="PackedScene" uid="uid://h4r6br74o27v" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_8.tscn" id="59_lg7ma"]
+[ext_resource type="PackedScene" uid="uid://b38uk8bkjynn2" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_9.tscn" id="60_4q610"]
+[ext_resource type="PackedScene" uid="uid://cck33mo7dr2dm" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_fever_few_b_10.tscn" id="61_cc15g"]
+[ext_resource type="PackedScene" uid="uid://da2v4khi4q15o" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_a_1.tscn" id="62_qbbai"]
+[ext_resource type="PackedScene" uid="uid://bmprqdllte35i" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_a_2.tscn" id="63_wn75m"]
+[ext_resource type="PackedScene" uid="uid://6om877jwepdn" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_a_3.tscn" id="64_sgap2"]
+[ext_resource type="PackedScene" uid="uid://bp75ep5wnskps" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_a_4.tscn" id="65_nsghg"]
+[ext_resource type="PackedScene" uid="uid://ljgwjr4cers2" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_a_5.tscn" id="66_acq24"]
+[ext_resource type="PackedScene" uid="uid://dg4hlqux4745d" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_1.tscn" id="67_2wymg"]
+[ext_resource type="PackedScene" uid="uid://dtbd2tytp65n3" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_2.tscn" id="68_es7p7"]
+[ext_resource type="PackedScene" uid="uid://cm0sicgvfu0r3" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_3.tscn" id="69_k01fd"]
+[ext_resource type="PackedScene" uid="uid://cke368g661s5h" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_4.tscn" id="70_03v1l"]
+[ext_resource type="PackedScene" uid="uid://brpxhvc1ag1c6" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_5.tscn" id="71_aisff"]
+[ext_resource type="PackedScene" uid="uid://cb6c55e14njny" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_6.tscn" id="72_8jurd"]
+[ext_resource type="PackedScene" uid="uid://cdpafusk55mb5" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_gyp_b_7.tscn" id="73_x7qrs"]
+[ext_resource type="PackedScene" uid="uid://4ayfoh5bmo5x" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_a_1.tscn" id="74_5ydk3"]
+[ext_resource type="PackedScene" uid="uid://b53vsf4xixvq6" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_a_2.tscn" id="75_3n6xs"]
+[ext_resource type="PackedScene" uid="uid://bd1y6y82cq3et" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_a_3.tscn" id="76_35lcy"]
+[ext_resource type="PackedScene" uid="uid://lbc0npfbrsio" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_a_4.tscn" id="77_5vjo7"]
+[ext_resource type="PackedScene" uid="uid://ks0mxogwe5sq" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_b_1.tscn" id="78_axj7j"]
+[ext_resource type="PackedScene" uid="uid://dmtvwhladfkpq" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_b_2.tscn" id="79_6eay6"]
+[ext_resource type="PackedScene" uid="uid://cr3mjwmgw1htk" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_b_3.tscn" id="80_ig12p"]
+[ext_resource type="PackedScene" uid="uid://d1n0xhwhiml38" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_c_1.tscn" id="81_0dgio"]
+[ext_resource type="PackedScene" uid="uid://bqj5k6v61mdvr" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_c_2.tscn" id="82_mv4v2"]
+[ext_resource type="PackedScene" uid="uid://bnv0t46jf51tl" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_snap_dragon_c_3.tscn" id="83_7ngkb"]
+[ext_resource type="PackedScene" uid="uid://bm56xcc5efw30" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_a_1.tscn" id="84_v0hdw"]
+[ext_resource type="PackedScene" uid="uid://cxllos58wo457" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_a_2.tscn" id="85_0pm0m"]
+[ext_resource type="PackedScene" uid="uid://cthrhjk1yt0eu" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_a_3.tscn" id="86_fup8u"]
+[ext_resource type="PackedScene" uid="uid://dd3x3bugnu01" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_a_4.tscn" id="87_ctps1"]
+[ext_resource type="PackedScene" uid="uid://bqhknv0k5f3x3" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_a_5.tscn" id="88_x3jmy"]
+[ext_resource type="PackedScene" uid="uid://dtjpkbvj2p385" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_1.tscn" id="89_mcj68"]
+[ext_resource type="PackedScene" uid="uid://bftcv32vqd3oi" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_2.tscn" id="90_aewhv"]
+[ext_resource type="PackedScene" uid="uid://b7knye01h2wkj" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_3.tscn" id="91_0ga5a"]
+[ext_resource type="PackedScene" uid="uid://dn0ffrjh8s3lj" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_4.tscn" id="92_k11xx"]
+[ext_resource type="PackedScene" uid="uid://b7u88d2hy8suq" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_5.tscn" id="93_cgxcj"]
+[ext_resource type="PackedScene" uid="uid://c8kc3le1ofx7i" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_6.tscn" id="94_0o5o8"]
+[ext_resource type="PackedScene" uid="uid://bg5emnk76nc26" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_7.tscn" id="95_soanp"]
+[ext_resource type="PackedScene" uid="uid://cfsbch0mwlvc0" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_8.tscn" id="96_cp081"]
+[ext_resource type="PackedScene" uid="uid://bnqwmvuan1btc" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_9.tscn" id="97_3st6o"]
+[ext_resource type="PackedScene" uid="uid://tmfbl6ridcwh" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_10.tscn" id="98_054fa"]
+[ext_resource type="PackedScene" uid="uid://b5skqx54lak23" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_11.tscn" id="99_wm285"]
+[ext_resource type="PackedScene" uid="uid://6v1h6hbjujy8" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_12.tscn" id="100_0rk7m"]
+[ext_resource type="PackedScene" uid="uid://dhejo5u5ukdue" path="res://Assets/FlowerArrangementPack/Scenes/FillerFlower/filler_flower_stock_b_13.tscn" id="101_cpqhx"]
+[ext_resource type="PackedScene" uid="uid://b8gegseq6hqa5" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_a_1.tscn" id="102_qirv3"]
+[ext_resource type="PackedScene" uid="uid://8auepjn3cnpj" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_a_2.tscn" id="103_fep78"]
+[ext_resource type="PackedScene" uid="uid://ue7jjpsimxk3" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_a_3.tscn" id="104_8tm2e"]
+[ext_resource type="PackedScene" uid="uid://bj7y0mxo7glee" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_a_4.tscn" id="105_f0nod"]
+[ext_resource type="PackedScene" uid="uid://bhkvvxxrhfgpg" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_b_1.tscn" id="106_0cyub"]
+[ext_resource type="PackedScene" uid="uid://dqncpjs7nk4or" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_b_2.tscn" id="107_6ll4i"]
+[ext_resource type="PackedScene" uid="uid://bji18thrk4nt7" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_b_3.tscn" id="108_x3beb"]
+[ext_resource type="PackedScene" uid="uid://bc7g1r4mwkqg7" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_b_4.tscn" id="109_wywlq"]
+[ext_resource type="PackedScene" uid="uid://c5o3t61tgxlrf" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_c_1.tscn" id="110_mdjfa"]
+[ext_resource type="PackedScene" uid="uid://c8hbpkcrkbxdv" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_c_2.tscn" id="111_8oikj"]
+[ext_resource type="PackedScene" uid="uid://k0vvfgbfhkw8" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_c_3.tscn" id="112_85j6s"]
+[ext_resource type="PackedScene" uid="uid://b4tit2np4l10c" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_carnation_c_4.tscn" id="113_rhx2n"]
+[ext_resource type="PackedScene" uid="uid://beg4q7hraxxcj" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_a_1.tscn" id="114_8nhac"]
+[ext_resource type="PackedScene" uid="uid://lyyibusccc4r" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_a_2.tscn" id="115_wt6st"]
+[ext_resource type="PackedScene" uid="uid://ciepb36ejnoio" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_a_3.tscn" id="116_flpdq"]
+[ext_resource type="PackedScene" uid="uid://cpuf2nkjluhrf" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_a_4.tscn" id="117_sb2mb"]
+[ext_resource type="PackedScene" uid="uid://ckx1vxbbly6h5" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_b_1.tscn" id="118_a5cex"]
+[ext_resource type="PackedScene" uid="uid://dyqoqq5tjnq5m" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_b_2.tscn" id="119_6wxmj"]
+[ext_resource type="PackedScene" uid="uid://dgc1l0gb7obp7" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_b_3.tscn" id="120_405g7"]
+[ext_resource type="PackedScene" uid="uid://dh5nc0s3ntf5u" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_b_4.tscn" id="121_wuac7"]
+[ext_resource type="PackedScene" uid="uid://c0n7bu1sc2f3d" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_c_1.tscn" id="122_wopb5"]
+[ext_resource type="PackedScene" uid="uid://boajhh8ll8np1" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_c_2.tscn" id="123_c5bj2"]
+[ext_resource type="PackedScene" uid="uid://cvncuoypa0t5c" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_c_3.tscn" id="124_lxynb"]
+[ext_resource type="PackedScene" uid="uid://bjm6mo6b35wmx" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_dahlia_c_4.tscn" id="125_gtxx0"]
+[ext_resource type="PackedScene" uid="uid://crl0lea745mvo" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_a_1.tscn" id="126_de6ig"]
+[ext_resource type="PackedScene" uid="uid://cnb8fykjx6lbc" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_a_2.tscn" id="126_vqhxa"]
+[ext_resource type="PackedScene" uid="uid://c4txhle8n75x4" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_a_3.tscn" id="127_7ne10"]
+[ext_resource type="PackedScene" uid="uid://dhy6ysl5v2622" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_b_2.tscn" id="128_0lgar"]
+[ext_resource type="PackedScene" uid="uid://bmtbkpoe0wisg" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_b_3.tscn" id="129_8a0oy"]
+[ext_resource type="PackedScene" uid="uid://4l8xxacw68rc" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_b_1.tscn" id="129_e5int"]
+[ext_resource type="PackedScene" uid="uid://bq7cog8you5wv" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_c_2.tscn" id="130_uo0e6"]
+[ext_resource type="PackedScene" uid="uid://6tn5y3tbuqph" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_c_3.tscn" id="131_7rfdt"]
+[ext_resource type="PackedScene" uid="uid://b0y717fmpv81t" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_a_1.tscn" id="132_6fqt4"]
+[ext_resource type="PackedScene" uid="uid://d2ki7px4eh7c5" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_freesia_c_1.tscn" id="132_ic0e0"]
+[ext_resource type="PackedScene" uid="uid://bu0bftrbfhi6m" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_a_2.tscn" id="133_7qclh"]
+[ext_resource type="PackedScene" uid="uid://c51s1nqa0l8k" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_a_3.tscn" id="134_ceehf"]
+[ext_resource type="PackedScene" uid="uid://dorvcgxdpx0qi" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_a_4.tscn" id="135_r0px5"]
+[ext_resource type="PackedScene" uid="uid://dc1skuevc8qdw" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_b_1.tscn" id="136_hspos"]
+[ext_resource type="PackedScene" uid="uid://c6nc3afsg16bc" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_b_2.tscn" id="137_67vje"]
+[ext_resource type="PackedScene" uid="uid://bp5hbaqujqbxu" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_b_3.tscn" id="138_xdh2m"]
+[ext_resource type="PackedScene" uid="uid://c77cp67l8f76" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_b_4.tscn" id="139_bexxe"]
+[ext_resource type="PackedScene" uid="uid://bm3ubyfpbn02h" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_c_1.tscn" id="140_2l7ac"]
+[ext_resource type="PackedScene" uid="uid://cmditjx6sfpcy" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_c_2.tscn" id="141_kiht5"]
+[ext_resource type="PackedScene" uid="uid://4ps4jrvkypyw" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_c_3.tscn" id="142_a2jwv"]
+[ext_resource type="PackedScene" uid="uid://di4u8e401r6u1" path="res://Assets/FlowerArrangementPack/Scenes/Flower/flower_rose_c_4.tscn" id="143_8lnni"]
+[ext_resource type="PackedScene" uid="uid://uhwoohl41oru" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_1.tscn" id="147_8grxo"]
+[ext_resource type="PackedScene" uid="uid://cdki2nq5id872" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_2.tscn" id="148_7yhe6"]
+[ext_resource type="PackedScene" uid="uid://cr0nn3jv8onaw" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_3.tscn" id="149_q3ggw"]
+[ext_resource type="PackedScene" uid="uid://ci43882hqf4vi" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_4.tscn" id="150_d4nr1"]
+[ext_resource type="PackedScene" uid="uid://cha2nasxpttxk" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_5.tscn" id="151_0cwie"]
+[ext_resource type="PackedScene" uid="uid://duugoi82n8rd7" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_6.tscn" id="152_kixs7"]
+[ext_resource type="PackedScene" uid="uid://dq4dln34vjlqi" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_7.tscn" id="153_86prp"]
+[ext_resource type="PackedScene" uid="uid://dc6xmuyua465r" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_8.tscn" id="154_xciy2"]
+[ext_resource type="PackedScene" uid="uid://bnser35h0rwp6" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_9.tscn" id="155_0ohq1"]
+[ext_resource type="PackedScene" uid="uid://bi6ttfjwubi40" path="res://Assets/FlowerArrangementPack/Scenes/container/containers_10.tscn" id="156_mwskx"]
+[ext_resource type="PackedScene" uid="uid://wa34cwltpdbf" path="res://Assets/FlowerArrangementPack/Scenes/container/foam_1.tscn" id="157_wypfi"]
+[ext_resource type="PackedScene" uid="uid://i4qw3xxi8ix6" path="res://Assets/FlowerArrangementPack/Scenes/container/foam_2.tscn" id="158_jysii"]
+[ext_resource type="PackedScene" uid="uid://dej1l1qitghyw" path="res://Assets/FlowerArrangementPack/Scenes/container/foam_3.tscn" id="159_pwwfs"]
+[ext_resource type="Script" path="res://Tutorial/free_look_camera.gd" id="160_8ciy6"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wlu47"]
+sky_top_color = Color(0.384314, 0.454902, 0.54902, 1)
+sky_horizon_color = Color(0.646078, 0.655975, 0.670505, 1)
+ground_horizon_color = Color(0.646078, 0.655975, 0.670505, 1)
+
+[sub_resource type="Sky" id="Sky_o8cbl"]
+sky_material = SubResource("ProceduralSkyMaterial_wlu47")
+
+[sub_resource type="Environment" id="Environment_bgwq3"]
+background_mode = 2
+sky = SubResource("Sky_o8cbl")
+ambient_light_color = Color(0.352941, 0.352941, 0.352941, 1)
+ambient_light_energy = 1.78
+tonemap_mode = 2
+tonemap_exposure = 1.68
+tonemap_white = 6.21
+ssr_enabled = true
+ssr_max_steps = 32
+ssao_enabled = true
+ssao_detail = 1.96
+ssao_horizon = 0.16
+ssao_sharpness = 0.32
+ssao_ao_channel_affect = 0.03
+ssil_enabled = true
+ssil_radius = 0.74
+ssil_intensity = 2.37
+ssil_sharpness = 0.23
+ssil_normal_rejection = 0.0
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_read_sky_light = false
+sdfgi_cascades = 5
+sdfgi_min_cell_size = 0.1
+sdfgi_y_scale = 2
+sdfgi_normal_bias = 0.5
+sdfgi_probe_bias = 0.5
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_x0s42"]
+size = Vector2(30, 30)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3djkt"]
+albedo_color = Color(0.705882, 0.705882, 0.705882, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_rx33o"]
+data = PackedVector3Array(15, 0, 15, -15, 0, 15, 15, 0, -15, -15, 0, 15, -15, 0, -15, 15, 0, -15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ljrp6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s7yd4"]
+albedo_color = Color(0.396078, 0.45098, 0.572549, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_s5k7l"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_bgwq3")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.59236, 0.389735, 3.35809)
+script = ExtResource("160_8ciy6")
+sensitivity = 1.05
+speed_scale = 0.71
+boost_speed_multiplier = 1.0
+
+[node name="Arrangements" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.40927, -0.0245861, 1.64985)
+
+[node name="FlowerArrangement_1" parent="Arrangements" instance=ExtResource("1_4x7a7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.00543, -1.19209e-07, 0.0903319)
+
+[node name="FlowerArrangement_1001" parent="Arrangements/FlowerArrangement_1" index="0"]
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+
+[node name="FlowerArrangement_1004" parent="Arrangements/FlowerArrangement_1" index="2"]
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+
+[node name="FlowerArrangement_2" parent="Arrangements" instance=ExtResource("2_mx1dl")]
+transform = Transform3D(0.259089, 0, 0.965854, 0, 1, 0, -0.965854, 0, 0.259089, -2.40518, 5.96046e-08, 0.796138)
+
+[node name="FlowerArrangement_2002" parent="Arrangements/FlowerArrangement_2" index="1"]
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="FlowerArrangement_2003" parent="Arrangements/FlowerArrangement_2" index="2"]
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+
+[node name="FlowerArrangement_3" parent="Arrangements" instance=ExtResource("3_20oj3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5276, 5.96046e-08, 0.418273)
+
+[node name="FlowerArrangement_4" parent="Arrangements" instance=ExtResource("4_qb1ki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.42164, -1.19209e-07, 0.0459105)
+
+[node name="FlowerArrangement_5" parent="Arrangements" instance=ExtResource("5_xy25i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.97474, 0, 0.428882)
+
+[node name="FlowerArrangement_6" parent="Arrangements" instance=ExtResource("6_2u8t1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.73645, -5.96046e-08, 0.199036)
+
+[node name="FlowerArrangement_7" parent="Arrangements" instance=ExtResource("7_wefwx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.24742, 5.96046e-08, 0.194593)
+
+[node name="FlowerArrangement_8" parent="Arrangements" instance=ExtResource("8_td0hn")]
+transform = Transform3D(0.745918, 0, 0.666038, 0, 1, 0, -0.666038, 0, 0.745918, -2.26807, 5.96046e-08, 0.4819)
+
+[node name="FlowerArrangement_9" parent="Arrangements" instance=ExtResource("9_osw31")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2.23163, 0.0244098, 1.01337)
+
+[node name="FlowerArrangement_10" parent="Arrangements" instance=ExtResource("10_pj22x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.93142, 8.9407e-08, 0.667235)
+
+[node name="Greenery" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.230685, 0, 1.63685)
+
+[node name="Greenery_Fern_A_1" parent="Greenery" instance=ExtResource("11_dnxgp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125883, 0, 0.46268)
+
+[node name="Greenery_Fern_A_2" parent="Greenery" instance=ExtResource("12_1vm8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.213275, 0, 0.283692)
+
+[node name="Greenery_Fern_A_3" parent="Greenery" instance=ExtResource("13_vqrh8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.54133, 0, 0.940337)
+
+[node name="Greenery_Fern_B_1" parent="Greenery" instance=ExtResource("14_24gdd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.726583, -1.19209e-07, 0.0462716)
+
+[node name="Greenery_Fern_B_2" parent="Greenery" instance=ExtResource("15_ciwd2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.67432, 0, 0.194993)
+
+[node name="Greenery_Fern_B_3" parent="Greenery" instance=ExtResource("16_onriy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.21987, -4.76837e-07, -0.139648)
+
+[node name="Greenery_Fern_C_1" parent="Greenery" instance=ExtResource("17_sqjqk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.144094, 0, -0.391084)
+
+[node name="Greenery_Fern_C_2" parent="Greenery" instance=ExtResource("18_jjiyq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07941, -1.19209e-07, -0.733355)
+
+[node name="Greenery_Fern_C_3" parent="Greenery" instance=ExtResource("19_vvlf8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33677, 1.19209e-07, -0.570644)
+
+[node name="Greenery_Ivy_1" parent="Greenery" instance=ExtResource("20_xw2mm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47653, 0.621566, -1.15418)
+
+[node name="Greenery_Ivy_2" parent="Greenery" instance=ExtResource("21_1ihl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.57404, 0.621566, -1.1283)
+
+[node name="Greenery_Ivy_3" parent="Greenery" instance=ExtResource("22_q4kwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7278, 0.621566, -1.15856)
+
+[node name="Greenery_Ivy_4" parent="Greenery" instance=ExtResource("23_7nmcr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72551, 0.621566, -1.13886)
+
+[node name="Greenery_Ivy_5" parent="Greenery" instance=ExtResource("24_qisvn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04914, 0.621566, -1.13945)
+
+[node name="Greenery_Ivy_6" parent="Greenery" instance=ExtResource("25_rwsts")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.31136, 0.621566, -1.15133)
+
+[node name="Greenery_Ivy_Leaf" parent="Greenery" instance=ExtResource("26_grs5k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.272, 0.557014, -1.12504)
+
+[node name="Greenery_Myrtle_1" parent="Greenery" instance=ExtResource("27_1rnji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.127181, 0, -0.29681)
+
+[node name="Greenery_Myrtle_2" parent="Greenery" instance=ExtResource("28_ly57y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.322343, -1.19209e-07, -0.353345)
+
+[node name="Greenery_Myrtle_3" parent="Greenery" instance=ExtResource("29_te7in")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.299018, 0, -0.196356)
+
+[node name="Greenery_Myrtle_4" parent="Greenery" instance=ExtResource("30_unb2w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.416391, -1.19209e-07, -0.385179)
+
+[node name="Greenery_Myrtle_5" parent="Greenery" instance=ExtResource("31_gor4b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.503132, 0, -0.162317)
+
+[node name="Greenery_Myrtle_6" parent="Greenery" instance=ExtResource("32_m7yej")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.551221, -1.19209e-07, -0.37435)
+
+[node name="Greenery_Myrtle_7" parent="Greenery" instance=ExtResource("33_v4yeb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.363234, -1.19209e-07, -0.141469)
+
+[node name="Greenery_SDE_1" parent="Greenery" instance=ExtResource("34_15hhy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.722582, 0, 0.0915712)
+
+[node name="Greenery_SDE_2" parent="Greenery" instance=ExtResource("35_axlba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.620571, 5.96046e-08, 0.0334046)
+
+[node name="Greenery_SDE_3" parent="Greenery" instance=ExtResource("36_ffqoh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.695138, 0, 0.0371664)
+
+[node name="Greenery_SDE_4" parent="Greenery" instance=ExtResource("37_vtwgw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.749375, 0, 0.0305355)
+
+[node name="Greenery_SDE_5" parent="Greenery" instance=ExtResource("38_phovo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.748755, 0, 0.150571)
+
+[node name="Greenery_SDE_6" parent="Greenery" instance=ExtResource("39_kincs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.638455, 0, 0.0737242)
+
+[node name="Greenery_SDE_7" parent="Greenery" instance=ExtResource("40_utih6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.683525, 0, 0.0177828)
+
+[node name="Greenery_SDE_8" parent="Greenery" instance=ExtResource("41_v6inq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.828456, 0, 0.054436)
+
+[node name="Greenery_SDE_9" parent="Greenery" instance=ExtResource("42_ueobk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.791423, 0, 0.0852095)
+
+[node name="Greenery_SDE_10" parent="Greenery" instance=ExtResource("43_nwnih")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.692705, 0, 0.0983157)
+
+[node name="FillerFlower" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.17646, 0, 0.524635)
+
+[node name="Filler_Flower_FeverFew_A_1" parent="FillerFlower" instance=ExtResource("44_5gyu3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000153661, 0, 0.332561)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_2" parent="FillerFlower" instance=ExtResource("45_w0v8w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0455794, 0, 0.312228)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_3" parent="FillerFlower" instance=ExtResource("46_ht85u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0742084, 0, 0.330605)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_4" parent="FillerFlower" instance=ExtResource("47_lkcqr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0449888, 0, 0.355807)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_5" parent="FillerFlower" instance=ExtResource("48_rsh7q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0020532, 0, 0.281881)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_6" parent="FillerFlower" instance=ExtResource("49_ptgy8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0405687, 0, 0.297906)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_7" parent="FillerFlower" instance=ExtResource("50_rd844")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0734265, 0, 0.352437)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_A_8" parent="FillerFlower" instance=ExtResource("51_1vd2g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.129459, 0, 0.333577)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_1" parent="FillerFlower" instance=ExtResource("52_dyfk8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0127712, 0, 0.380642)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_2" parent="FillerFlower" instance=ExtResource("53_6cqyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0327924, 0, 0.385329)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_3" parent="FillerFlower" instance=ExtResource("54_isvgb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0213375, 0, 0.390819)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_4" parent="FillerFlower" instance=ExtResource("55_4g6vg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00493276, 0, 0.399109)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_5" parent="FillerFlower" instance=ExtResource("56_k372b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0470358, 0, 0.397894)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_6" parent="FillerFlower" instance=ExtResource("57_kdjay")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0445275, 0, 0.392243)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_7" parent="FillerFlower" instance=ExtResource("58_bu5p7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.067216, 0, 0.406135)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_8" parent="FillerFlower" instance=ExtResource("59_lg7ma")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0397257, 0, 0.396263)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_9" parent="FillerFlower" instance=ExtResource("60_4q610")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.116751, 0, 0.380237)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_FeverFew_B_10" parent="FillerFlower" instance=ExtResource("61_cc15g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0168286, 0, 0.413687)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_A_1" parent="FillerFlower" instance=ExtResource("62_qbbai")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.258064, 0, 0.325754)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_A_2" parent="FillerFlower" instance=ExtResource("63_wn75m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.216661, 0, 0.299601)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_A_3" parent="FillerFlower" instance=ExtResource("64_sgap2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.262801, 0, 0.278088)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_A_4" parent="FillerFlower" instance=ExtResource("65_nsghg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.219304, 0, 0.325882)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_A_5" parent="FillerFlower" instance=ExtResource("66_acq24")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.306798, 0, 0.316039)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_1" parent="FillerFlower" instance=ExtResource("67_2wymg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.200657, 0, 0.336462)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_2" parent="FillerFlower" instance=ExtResource("68_es7p7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.30053, 0, 0.319405)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_3" parent="FillerFlower" instance=ExtResource("69_k01fd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.229916, 0, 0.335803)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_4" parent="FillerFlower" instance=ExtResource("70_03v1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.281606, 0, 0.322164)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_5" parent="FillerFlower" instance=ExtResource("71_aisff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.240614, 0, 0.353205)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_6" parent="FillerFlower" instance=ExtResource("72_8jurd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.280599, 0, 0.339121)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Gyp_B_7" parent="FillerFlower" instance=ExtResource("73_x7qrs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28547, 0, 0.349371)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_A_1" parent="FillerFlower" instance=ExtResource("74_5ydk3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00316215, 0, 0.101758)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_A_2" parent="FillerFlower" instance=ExtResource("75_3n6xs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.184654, 0, 0.0800661)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_A_3" parent="FillerFlower" instance=ExtResource("76_35lcy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.308111, 0, 0.0216564)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_A_4" parent="FillerFlower" instance=ExtResource("77_5vjo7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.511075, 0, 0.0220308)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_B_1" parent="FillerFlower" instance=ExtResource("78_axj7j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143703, 0, 0.158723)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_B_2" parent="FillerFlower" instance=ExtResource("79_6eay6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.288644, 0, 0.140367)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_B_3" parent="FillerFlower" instance=ExtResource("80_ig12p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.512158, 0, 0.116322)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_C_1" parent="FillerFlower" instance=ExtResource("81_0dgio")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.463541, 0, 0.285481)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+instance_shader_parameters/OnForCustomColors = true
+
+[node name="Filler_Flower_SnapDragon_C_2" parent="FillerFlower" instance=ExtResource("82_mv4v2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.605467, 0, 0.28632)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_SnapDragon_C_3" parent="FillerFlower" instance=ExtResource("83_7ngkb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54794, 0, 0.413267)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_A_1" parent="FillerFlower" instance=ExtResource("84_v0hdw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.205236, 0, 0.271445)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_A_2" parent="FillerFlower" instance=ExtResource("85_0pm0m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.111259, 0, 0.231455)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_A_3" parent="FillerFlower" instance=ExtResource("86_fup8u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.156042, 0, 0.189909)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_A_4" parent="FillerFlower" instance=ExtResource("87_ctps1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.152702, 0, 0.317428)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_A_5" parent="FillerFlower" instance=ExtResource("88_x3jmy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.253964, 0, 0.186013)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_1" parent="FillerFlower" instance=ExtResource("89_mcj68")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.038331, 0, 0.17961)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_2" parent="FillerFlower" instance=ExtResource("90_aewhv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.301684, 0, 0.238406)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_3" parent="FillerFlower" instance=ExtResource("91_0ga5a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.295275, 0, 0.28141)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_4" parent="FillerFlower" instance=ExtResource("92_k11xx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.256921, 0, 0.293761)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_5" parent="FillerFlower" instance=ExtResource("93_cgxcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0874272, 0, 0.243105)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_6" parent="FillerFlower" instance=ExtResource("94_0o5o8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.274475, 0, 0.320993)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_7" parent="FillerFlower" instance=ExtResource("95_soanp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.216292, 0, 0.330574)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_8" parent="FillerFlower" instance=ExtResource("96_cp081")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.321319, 0, 0.285321)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_9" parent="FillerFlower" instance=ExtResource("97_3st6o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.299282, 0, 0.302596)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_10" parent="FillerFlower" instance=ExtResource("98_054fa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.089466, 0, 0.28478)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_11" parent="FillerFlower" instance=ExtResource("99_wm285")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.24034, 0, 0.239647)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_12" parent="FillerFlower" instance=ExtResource("100_0rk7m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.149789, 0, 0.343381)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Filler_Flower_Stock_B_13" parent="FillerFlower" instance=ExtResource("101_cpqhx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.203757, 0, 0.361047)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+
+[node name="Flower" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.29679, 2.98023e-08, 0.366171)
+
+[node name="Flower_Carnation_A_1" parent="Flower" instance=ExtResource("102_qirv3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.408934, -2.98023e-08, 0.325537)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_A_2" parent="Flower" instance=ExtResource("103_fep78")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.335211, 0, 0.254804)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_A_3" parent="Flower" instance=ExtResource("104_8tm2e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.327294, 0, 0.337872)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_A_4" parent="Flower" instance=ExtResource("105_f0nod")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.348893, 0, 0.101976)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_B_1" parent="Flower" instance=ExtResource("106_0cyub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.286141, 0, 0.112676)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_B_2" parent="Flower" instance=ExtResource("107_6ll4i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.304847, 0, -0.015787)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_B_3" parent="Flower" instance=ExtResource("108_x3beb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.225801, 0, 0.0176639)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_B_4" parent="Flower" instance=ExtResource("109_wywlq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.230168, 0, 0.214653)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_C_1" parent="Flower" instance=ExtResource("110_mdjfa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.237436, 0, 0.313987)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_C_2" parent="Flower" instance=ExtResource("111_8oikj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.355085, 0, 0.411152)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_C_3" parent="Flower" instance=ExtResource("112_85j6s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.270315, 0, 0.415148)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Carnation_C_4" parent="Flower" instance=ExtResource("113_rhx2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.453143, 0, 0.422671)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_A_1" parent="Flower" instance=ExtResource("114_8nhac")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.287652, 0, 0.328382)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_A_2" parent="Flower" instance=ExtResource("115_wt6st")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.402065, 0, 0.326286)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_A_3" parent="Flower" instance=ExtResource("116_flpdq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.522155, 0, 0.314384)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_A_4" parent="Flower" instance=ExtResource("117_sb2mb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.641006, 0, 0.289563)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_B_1" parent="Flower" instance=ExtResource("118_a5cex")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.340189, 0, 0.0711229)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_B_2" parent="Flower" instance=ExtResource("119_6wxmj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.469689, 0, 0.075551)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_B_3" parent="Flower" instance=ExtResource("120_405g7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.588298, 0, 0.0542465)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_B_4" parent="Flower" instance=ExtResource("121_wuac7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.678833, 0, 0.0616775)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_C_1" parent="Flower" instance=ExtResource("122_wopb5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.302974, 0, 0.467157)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_C_2" parent="Flower" instance=ExtResource("123_c5bj2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.406019, -2.98023e-08, 0.465631)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_C_3" parent="Flower" instance=ExtResource("124_lxynb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.504124, 2.98023e-08, 0.422489)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Dahlia_C_4" parent="Flower" instance=ExtResource("125_gtxx0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.64259, 2.98023e-08, 0.396057)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_A_1" parent="Flower" instance=ExtResource("126_de6ig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0471772, 0, 0.244248)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_A_2" parent="Flower" instance=ExtResource("126_vqhxa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0466228, 0, 0.220077)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_A_3" parent="Flower" instance=ExtResource("127_7ne10")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0466228, 0, 0.220077)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_B_1" parent="Flower" instance=ExtResource("129_e5int")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.173032, -5.96046e-08, 0.186019)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_B_2" parent="Flower" instance=ExtResource("128_0lgar")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0466228, 0, 0.220077)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_B_3" parent="Flower" instance=ExtResource("129_8a0oy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0466228, 0, 0.220077)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_C_1" parent="Flower" instance=ExtResource("132_ic0e0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0642192, 0, 0.384693)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_C_2" parent="Flower" instance=ExtResource("130_uo0e6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0634792, 0, 0.35513)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Freesia_C_3" parent="Flower" instance=ExtResource("131_7rfdt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.119441, 0, 0.286429)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_A_1" parent="Flower" instance=ExtResource("132_6fqt4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.174517, 0, 0.516214)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_A_2" parent="Flower" instance=ExtResource("133_7qclh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.076273, 0, 0.497918)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_A_3" parent="Flower" instance=ExtResource("134_ceehf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00369567, 0, 0.489176)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_A_4" parent="Flower" instance=ExtResource("135_r0px5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0740516, 0, 0.495483)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_B_1" parent="Flower" instance=ExtResource("136_hspos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.138355, 0, 0.607295)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_B_2" parent="Flower" instance=ExtResource("137_67vje")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0566604, 0, 0.577402)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_B_3" parent="Flower" instance=ExtResource("138_xdh2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.032914, 0, 0.557899)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_B_4" parent="Flower" instance=ExtResource("139_bexxe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.113588, 0, 0.563854)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_C_1" parent="Flower" instance=ExtResource("140_2l7ac")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.142067, 0, 0.684252)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_C_2" parent="Flower" instance=ExtResource("141_kiht5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0528399, 0, 0.669587)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_C_3" parent="Flower" instance=ExtResource("142_a2jwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0566122, 0, 0.644958)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Flower_Rose_C_4" parent="Flower" instance=ExtResource("143_8lnni")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.162533, 0, 0.628298)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+
+[node name="Container" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.65742, 0.293587, 0.26139)
+
+[node name="Containers_1" parent="Container" instance=ExtResource("147_8grxo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.387027, 0, 0.104301)
+
+[node name="Containers_2" parent="Container" instance=ExtResource("148_7yhe6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.241823, -5.96046e-08, 0.0487508)
+
+[node name="Containers_3" parent="Container" instance=ExtResource("149_q3ggw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0590793, -5.96046e-08, 0.00473082)
+
+[node name="Containers_4" parent="Container" instance=ExtResource("150_d4nr1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0423996, 0, 0.155891)
+
+[node name="Containers_5" parent="Container" instance=ExtResource("151_0cwie")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2131, 5.96046e-08, 0.0830708)
+
+[node name="Containers_6" parent="Container" instance=ExtResource("152_kixs7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.47223, -5.96046e-08, 0.101251)
+
+[node name="Containers_7" parent="Container" instance=ExtResource("153_86prp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.604744, 0, -0.0658224)
+
+[node name="Containers_8" parent="Container" instance=ExtResource("154_xciy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.60015, -5.96046e-08, -0.198589)
+
+[node name="Containers_9" parent="Container" instance=ExtResource("155_0ohq1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0548897, -5.96046e-08, -0.305599)
+
+[node name="Containers_10" parent="Container" instance=ExtResource("156_mwskx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.331968, 0, -0.303569)
+
+[node name="Foam_1" parent="Container" instance=ExtResource("157_wypfi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.554793, -5.96046e-08, 0.198521)
+
+[node name="Foam_2" parent="Container" instance=ExtResource("158_jysii")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.352502, -5.96046e-08, 0.33917)
+
+[node name="Foam_3" parent="Container" instance=ExtResource("159_pwwfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.545782, -5.96046e-08, 0.405387)
+
+[node name="Light" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.939782, -0.341774, 0, 0.341774, 0.939782, 0, 2.39037, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Light"]
+transform = Transform3D(-0.866025, -0.266438, 0.423097, 0, 0.846193, 0.532876, -0.5, 0.461484, -0.732825, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_split_3 = 0.564
+directional_shadow_blend_splits = true
+directional_shadow_fade_start = 0.781
+directional_shadow_max_distance = 17.6
+directional_shadow_pancake_size = 14.5
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="Light"]
+transform = Transform3D(-0.866025, -0.266438, 0.423097, 0.499964, -0.471612, 0.726373, 0.00600375, 0.840591, 0.541637, 0, 0, 0)
+visible = false
+light_energy = 0.25
+directional_shadow_mode = 1
+
+[node name="DirectionalLight3D3" type="DirectionalLight3D" parent="Light"]
+transform = Transform3D(-0.00600371, -0.840591, -0.541637, 0.499964, -0.471612, 0.726373, -0.866025, -0.266438, 0.423097, 0, 0, 0)
+visible = false
+light_energy = 0.25
+directional_shadow_mode = 1
+
+[node name="DirectionalLight3D4" type="DirectionalLight3D" parent="Light"]
+transform = Transform3D(0.866025, 0.266438, -0.423097, 0.499964, -0.471612, 0.726373, -0.00600365, -0.840591, -0.541637, 0, 0, 0)
+visible = false
+light_energy = 0.25
+directional_shadow_mode = 1
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Node3D"]
+mesh = SubResource("PlaneMesh_x0s42")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_3djkt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D/MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_rx33o")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 5.09394, -1.88179, 0.543435, 0.694141)
+mesh = SubResource("BoxMesh_ljrp6")
+surface_material_override/0 = SubResource("StandardMaterial3D_s7yd4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D/MeshInstance3D2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/MeshInstance3D2/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_s5k7l")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 5.09394, 0, 1, 0, -1, 0, -2.22663e-07, 1.20777, 0.543435, 4.73143)
+mesh = SubResource("BoxMesh_ljrp6")
+surface_material_override/0 = SubResource("StandardMaterial3D_s7yd4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D/MeshInstance3D3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/MeshInstance3D3/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_s5k7l")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 5.09394, 0, 1, 0, -1, 0, -2.22663e-07, 1.66262, 0.543435, -1.63888)
+mesh = SubResource("BoxMesh_ljrp6")
+surface_material_override/0 = SubResource("StandardMaterial3D_s7yd4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D/MeshInstance3D4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/MeshInstance3D4/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_s5k7l")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="Node3D"]
+transform = Transform3D(-1, 0, -4.45326e-07, 0, 1, 0, 8.74228e-08, 0, -5.09394, 4.40134, 0.543435, 1.99687)
+mesh = SubResource("BoxMesh_ljrp6")
+surface_material_override/0 = SubResource("StandardMaterial3D_s7yd4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Node3D/MeshInstance3D5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D/MeshInstance3D5/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_s5k7l")
+
+[editable path="Arrangements/FlowerArrangement_1"]
+[editable path="Arrangements/FlowerArrangement_2"]
+[editable path="Arrangements/FlowerArrangement_3"]
+[editable path="Arrangements/FlowerArrangement_4"]

@@ -1,0 +1,49 @@
+[gd_scene load_steps=8 format=3 uid="uid://c0uk15tylnm46"]
+
+[ext_resource type="Material" uid="uid://cxp8wwxbrruip" path="res://Assets/FlowerArrangementPack/Material/Greenery_Mat.tres" id="1_owmkc"]
+[ext_resource type="Material" uid="uid://1pkq4yj4fcqh" path="res://Assets/FlowerArrangementPack/Material/Foam_Mat.tres" id="2_pip1l"]
+[ext_resource type="Material" uid="uid://m20tdqtbc23" path="res://Assets/FlowerArrangementPack/Material/Fill_Flowers_Mats.tres" id="2_uo8pf"]
+[ext_resource type="Material" uid="uid://beigbmdwk6dkh" path="res://Assets/FlowerArrangementPack/Material/Plastic_Mat.tres" id="3_560te"]
+[ext_resource type="Material" uid="uid://dy28gmeylnp46" path="res://Assets/FlowerArrangementPack/Material/Flower_Mat.tres" id="3_rniri"]
+[ext_resource type="PackedScene" uid="uid://dtqhvc1snbgsg" path="res://Assets/FlowerArrangementPack/Gltf/FlowerArrangementPack.gltf" id="6_7krms"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_e87ds"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.19907)
+mesh = SubResource("PlaneMesh_e87ds")
+surface_material_override/0 = ExtResource("1_owmkc")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.39316)
+instance_shader_parameters/FF_BlueArea_Color = Color(1, 1, 1, 1)
+instance_shader_parameters/FF_GreenArea_Color = Color(1, 0.313726, 0, 1)
+instance_shader_parameters/FF_RedArea_Color = Color(1, 1, 0.960784, 1)
+instance_shader_parameters/FF_WhiteArea_Color = Color(0.992157, 0.823529, 0.929412, 1)
+mesh = SubResource("PlaneMesh_e87ds")
+surface_material_override/0 = ExtResource("2_uo8pf")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.28384)
+instance_shader_parameters/Fl_BlueArea_Color = Color(1, 0.635294, 0.0784314, 1)
+instance_shader_parameters/Fl_GreenArea_Color = Color(0.917647, 0.196078, 0.235294, 1)
+instance_shader_parameters/Fl_RedArea_Color = Color(0.792157, 0.321569, 0.788235, 1)
+instance_shader_parameters/Fl_WhiteArea_Color = Color(0.929412, 0.462745, 0.0784314, 1)
+instance_shader_parameters/OnForCustomColors = true
+mesh = SubResource("PlaneMesh_e87ds")
+surface_material_override/0 = ExtResource("3_rniri")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.97928)
+mesh = SubResource("PlaneMesh_e87ds")
+surface_material_override/0 = ExtResource("2_pip1l")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.0518)
+mesh = SubResource("PlaneMesh_e87ds")
+surface_material_override/0 = ExtResource("3_560te")
+
+[node name="FlowerArrangementPack" parent="." instance=ExtResource("6_7krms")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.44051, -5.96046e-08, 0.611549)

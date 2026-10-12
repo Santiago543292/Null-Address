@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bd3ywwk3mancm"
+path="res://.godot/imported/lamp_table.obj-1481a62a7640b87d899af0f8ed60673b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lamp_table.obj-1481a62a7640b87d899af0f8ed60673b.mesh"]
+
+source_file="res://Assets/KayKit_Furniture_Bits_1.0_FREE/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/lamp_table.obj"
+dest_files=["res://.godot/imported/lamp_table.obj-1481a62a7640b87d899af0f8ed60673b.mesh", "res://.godot/imported/lamp_table.obj-1481a62a7640b87d899af0f8ed60673b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

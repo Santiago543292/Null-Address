@@ -1,0 +1,140 @@
+[gd_scene format=3 uid="uid://ctrdqf80wppq5"]
+
+[ext_resource type="Script" uid="uid://bxfeo1ss3ley8" path="res://ui/main_menu.gd" id="1_script"]
+[ext_resource type="Shader" uid="uid://bsjhkg1ifyihh" path="res://ui/crt_bg.gdshader" id="2_bg"]
+[ext_resource type="Shader" uid="uid://dc8f2g0u4maod" path="res://ui/crt_fg.gdshader" id="3_fg"]
+[ext_resource type="Script" path="res://ui/menu_haunt.gd" id="9_haunt"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bg"]
+shader = ExtResource("2_bg")
+shader_parameter/base_color = Color(0.03, 0.033, 0.038, 1)
+shader_parameter/noise_amount = 0.1
+shader_parameter/vignette_amount = 0.9
+shader_parameter/band_amount = 0.05
+shader_parameter/flicker_amount = 0.05
+shader_parameter/grain_scale = 900.0
+shader_parameter/band_speed = 0.07
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fg"]
+shader = ExtResource("3_fg")
+shader_parameter/scanline_amount = 0.34
+shader_parameter/scanline_count = 540.0
+shader_parameter/noise_amount = 0.035
+shader_parameter/vignette_amount = 0.5
+shader_parameter/wobble_amount = 0.0012
+shader_parameter/max_alpha = 0.85
+
+[node name="MainMenu" type="Control" unique_id=359035415]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="CRTBackground" type="ColorRect" parent="." unique_id=993011456]
+material = SubResource("ShaderMaterial_bg")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TitleBox" type="VBoxContainer" parent="." unique_id=726963064]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 65.0
+offset_right = 896.0
+offset_bottom = 206.0
+theme_override_constants/separation = 2
+
+[node name="Title" type="Label" parent="TitleBox" unique_id=417556874]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 72
+text = "NULL ADDRESS"
+
+[node name="Subtitle" type="Label" parent="TitleBox" unique_id=297201221]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.44, 0.46, 1)
+theme_override_font_sizes/font_size = 20
+text = "FOUND FOOTAGE //̔  T͕̊Ȧ̤P̯͑E̙ͫ 0͔̼͊͐̏͂͌̋0̶̯̊̊ͯ͛1̴̥̜͈͕̔̐͑"
+
+[node name="Rule" type="ColorRect" parent="." unique_id=1868543449]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 218.0
+offset_right = 796.0
+offset_bottom = 219.0
+mouse_filter = 2
+color = Color(1, 1, 1, 0.22)
+
+[node name="MenuBox" type="VBoxContainer" parent="." unique_id=2063766759]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 96.0
+offset_top = 240.0
+offset_right = 596.0
+offset_bottom = 410.0
+theme_override_constants/separation = 4
+
+[node name="BottomBar" type="HBoxContainer" parent="." unique_id=1957840070]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 96.0
+offset_top = -84.0
+offset_right = -96.0
+offset_bottom = -48.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 24
+
+[node name="RecRow" type="HBoxContainer" parent="BottomBar" unique_id=1562841192]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Status" type="Label" parent="BottomBar" unique_id=1411301752]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.44, 0.46, 1)
+theme_override_font_sizes/font_size = 18
+text = "SP  //  CAM 1  //  AUTO"
+
+[node name="Spacer" type="Control" parent="BottomBar" unique_id=157073815]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Timecode" type="Label" parent="BottomBar" unique_id=1739709820]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.82, 0.84, 1)
+theme_override_font_sizes/font_size = 18
+text = "00:00:00"
+horizontal_alignment = 2
+
+[node name="MenuHaunt" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("9_haunt")
+
+[node name="CRTForeground" type="ColorRect" parent="." unique_id=79556871]
+material = SubResource("ShaderMaterial_fg")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

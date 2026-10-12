@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdvbic8urppej"
+path="res://.godot/imported/back_ceiling_light.obj-531b96f9c927ea3fc2908bb3d4d7a644.mesh"
+
+[deps]
+
+files=["res://.godot/imported/back_ceiling_light.obj-531b96f9c927ea3fc2908bb3d4d7a644.mesh"]
+
+source_file="res://Assets/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/OBJ/Backrooms/back_ceiling_light.obj"
+dest_files=["res://.godot/imported/back_ceiling_light.obj-531b96f9c927ea3fc2908bb3d4d7a644.mesh", "res://.godot/imported/back_ceiling_light.obj-531b96f9c927ea3fc2908bb3d4d7a644.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,117 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://demo/hunt.gd" id="1"]
+[ext_resource type="Script" path="res://demo/maze.gd" id="2"]
+[ext_resource type="Script" path="res://demo/flicker_light.gd" id="3"]
+[ext_resource type="PackedScene" path="res://demo/player.tscn" id="4"]
+[ext_resource type="Texture2D" path="res://demo/textures/concrete_cracked.png" id="5"]
+[ext_resource type="Texture2D" path="res://demo/textures/brick_red.png" id="6"]
+[ext_resource type="Texture2D" path="res://demo/textures/planks_dark_old.png" id="7"]
+[ext_resource type="Texture2D" path="res://demo/textures/wallpaper_striped.png" id="8"]
+[ext_resource type="Texture2D" path="res://demo/textures/tiles_bathroom_dirty.png" id="9"]
+[ext_resource type="Texture2D" path="res://demo/textures/ceiling_drop_tiles.png" id="10"]
+[ext_resource type="Texture2D" path="res://demo/textures/door_wood_old.png" id="11"]
+[ext_resource type="PackedScene" path="res://monsters/shambler/shambler.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://monsters/hound/hound.tscn" id="13"]
+
+[sub_resource type="Environment" id="env"]
+background_mode = 1
+background_color = Color(0.012, 0.012, 0.016, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.55, 0.56, 0.62, 1)
+ambient_light_energy = 0.17
+reflected_light_source = 1
+tonemap_mode = 0
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.012, 0.012, 0.016, 1)
+fog_density = 1.0
+fog_depth_begin = 2.0
+fog_depth_end = 17.0
+fog_depth_curve = 1.2
+
+[sub_resource type="NavigationMesh" id="navmesh"]
+geometry_parsed_geometry_type = 1
+geometry_collision_mask = 1
+cell_size = 0.25
+cell_height = 0.25
+agent_height = 1.5
+agent_radius = 0.5
+agent_max_climb = 0.25
+filter_baking_aabb = AABB(-9.0, -1, -9.0, 18.0, 3, 18.0)
+
+[node name="Hunt" type="Node3D"]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Navigation" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("navmesh")
+
+[node name="Maze" type="Node3D" parent="Navigation"]
+script = ExtResource("2")
+layout = PackedStringArray("#########", "#,,,,,::#", "#,,,,,#:#", "#,,,,,#:#", "#.#,,,#:#", "#..,,,;;#", "###;;;;;#", "#..;;;;;#", "#########")
+cell_size = 2.0
+wall_height = 3.0
+concrete = ExtResource("5")
+brick = ExtResource("6")
+planks = ExtResource("7")
+wallpaper = ExtResource("8")
+tiles = ExtResource("9")
+ceiling_tiles = ExtResource("10")
+door = ExtResource("11")
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="Lamp1" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, -2.0, 2.65, -4.0)
+light_color = Color(1, 0.78, 0.5, 1)
+light_energy = 1.4
+light_specular = 0.0
+omni_range = 6.5
+omni_attenuation = 1.3
+script = ExtResource("3")
+mode = 0
+flicker_seed = 3
+
+[node name="Lamp2" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.65, 0.0)
+light_color = Color(0.7, 0.85, 1, 1)
+light_energy = 1.4
+light_specular = 0.0
+omni_range = 6.5
+omni_attenuation = 1.3
+script = ExtResource("3")
+mode = 0
+flicker_seed = 4
+
+[node name="Lamp3" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 2.0, 2.65, 4.0)
+light_color = Color(1, 0.55, 0.45, 1)
+light_energy = 1.4
+light_specular = 0.0
+omni_range = 6.5
+omni_attenuation = 1.3
+script = ExtResource("3")
+mode = 0
+flicker_seed = 5
+
+[node name="Player" parent="." instance=ExtResource("4")]
+transform = Transform3D(0.0, 0.0, -1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, -2.0, 0.05, -4.0)
+controls_text = ""
+
+[node name="Monsters" type="Node3D" parent="."]
+
+[node name="Shambler" parent="Monsters" instance=ExtResource("12")]
+transform = Transform3D(0.82404, 0.0, 0.56653, 0.0, 1.0, 0.0, -0.56653, 0.0, 0.82404, 6.0, 0.05, 6.0)
+detect_range = 11.0
+lose_range = 22.0
+wander_radius = 4.0
+
+[node name="Hound" parent="Monsters" instance=ExtResource("13")]
+transform = Transform3D(-0.05708, 0.0, -0.99837, 0.0, 1.0, 0.0, 0.99837, 0.0, -0.05708, 6.0, 0.05, 0.0)
+detect_range = 11.0
+lose_range = 22.0
+wander_radius = 4.0
+skin = "black"

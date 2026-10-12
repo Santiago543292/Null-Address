@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://dy28gmeylnp46"]
+
+[ext_resource type="Shader" uid="uid://ocvi6jx1dvsr" path="res://Assets/FlowerArrangementPack/Material/Flower_SHader.tres" id="1_4nwc6"]
+[ext_resource type="Texture2D" uid="uid://lf2qk1ktv3e6" path="res://Assets/FlowerArrangementPack/Textures/Flower/ColorAlpha_Flower.png" id="2_3nwtv"]
+[ext_resource type="Texture2D" uid="uid://3exnnge7k74x" path="res://Assets/FlowerArrangementPack/Textures/Flower/FlowerMask_2_Flower.png" id="3_u8xkw"]
+[ext_resource type="Texture2D" uid="uid://p58wa7dfkskw" path="res://Assets/FlowerArrangementPack/Textures/Flower/MRAO_Flower.png" id="4_n0jn5"]
+[ext_resource type="Texture2D" uid="uid://w0u6dtl62s28" path="res://Assets/FlowerArrangementPack/Textures/Flower/NORMAL_Flower.png" id="5_ieyi3"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4nwc6")
+shader_parameter/Roughness = -0.2
+shader_parameter/AmbientOcclusion = -0.6
+shader_parameter/AlphaScissor = 0.5
+shader_parameter/BaseColor = ExtResource("2_3nwtv")
+shader_parameter/FlowerMask = ExtResource("3_u8xkw")
+shader_parameter/MRAO = ExtResource("4_n0jn5")
+shader_parameter/NormalMap = ExtResource("5_ieyi3")

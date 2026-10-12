@@ -1,0 +1,3 @@
+key,name,triangles,bones,height_m,skins,walk_speed,run_speed,attack_range,clips
+shambler,Shambler,1085,18,1.87,worker patient,0.35,1.45,1.2,Idle 3.20s loop; Walk 1.70s loop; Run 0.87s loop; Attack 1.30s; Attack2 1.10s; Hit 0.60s; Death 2.20s; Scream 1.80s
+hound,Hound,1846,23,1.00,flayed black,0.67,3.53,1.8,Idle 4.00s loop; Walk 1.00s loop; Run 0.50s loop; Attack 1.50s; Attack2 1.40s; Hit 0.50s; Death 2.20s; Howl 3.00s

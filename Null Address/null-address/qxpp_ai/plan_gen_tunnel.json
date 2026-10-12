@@ -1,0 +1,22 @@
+{
+  "act": 4,
+  "act_title": "THE TUNNEL",
+  "venue": "tunnel",
+  "cols": 2,
+  "rows": 1,
+  "rooms": 2,
+  "dread": 0.95,
+  "size": [
+    12.0,
+    40.0,
+    2.7
+  ],
+  "lights": {
+    "total": 13,
+    "dead": 9,
+    "failing": 3,
+    "working": 1
+  },
+  "props": 4,
+  "doors": 0
+}

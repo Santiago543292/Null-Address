@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5kg1y5g04bn"
+path="res://.godot/imported/banner_brown.obj-45a100605b810c1b7b3b98ca9d092a5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/banner_brown.obj-45a100605b810c1b7b3b98ca9d092a5f.mesh"]
+
+source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/banner_brown.obj"
+dest_files=["res://.godot/imported/banner_brown.obj-45a100605b810c1b7b3b98ca9d092a5f.mesh", "res://.godot/imported/banner_brown.obj-45a100605b810c1b7b3b98ca9d092a5f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

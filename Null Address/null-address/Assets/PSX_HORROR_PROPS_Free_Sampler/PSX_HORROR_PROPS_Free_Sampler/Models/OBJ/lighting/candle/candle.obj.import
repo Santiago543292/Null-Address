@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bx7koj7bx2f2i"
+path="res://.godot/imported/candle.obj-96910b41d9544c3a0bdf1d1ba592e8f1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/candle.obj-96910b41d9544c3a0bdf1d1ba592e8f1.mesh"]
+
+source_file="res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Models/OBJ/lighting/candle/candle.obj"
+dest_files=["res://.godot/imported/candle.obj-96910b41d9544c3a0bdf1d1ba592e8f1.mesh", "res://.godot/imported/candle.obj-96910b41d9544c3a0bdf1d1ba592e8f1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

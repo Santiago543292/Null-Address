@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c8kq5f1kpundp"
+
+[deps]
+
+files=["res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.category.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.triangles.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.vertices.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.width.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.height.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.depth.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.texture.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.cutout.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.glow.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.mount.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.description.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.glb.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.obj.translation"]
+
+source_file="res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.csv"
+dest_files=["res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.category.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.triangles.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.vertices.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.width.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.height.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.depth.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.texture.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.cutout.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.glow.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.mount.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.description.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.glb.translation", "res://Assets/PSX_HORROR_PROPS_Free_Sampler/PSX_HORROR_PROPS_Free_Sampler/Catalog/props.obj.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

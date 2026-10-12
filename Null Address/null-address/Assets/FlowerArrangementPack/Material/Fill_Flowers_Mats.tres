@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://m20tdqtbc23"]
+
+[ext_resource type="Shader" uid="uid://u4vtxmhf760a" path="res://Assets/FlowerArrangementPack/Material/FillerFlower_shader.tres" id="1_rbwno"]
+[ext_resource type="Texture2D" uid="uid://cao5j8u7a4gbt" path="res://Assets/FlowerArrangementPack/Textures/FillerFlower/ColorAlpha_FillerFlower.png" id="2_1o7p7"]
+[ext_resource type="Texture2D" uid="uid://dttr6e2jv53ep" path="res://Assets/FlowerArrangementPack/Textures/FillerFlower/FlowerMask_2_FiilerFlower.png" id="3_fk88n"]
+[ext_resource type="Texture2D" uid="uid://0k2tuflaapn6" path="res://Assets/FlowerArrangementPack/Textures/FillerFlower/MRAO_FiilerFlower.png" id="3_hlxnu"]
+[ext_resource type="Texture2D" uid="uid://dqmgjg6jalqhb" path="res://Assets/FlowerArrangementPack/Textures/FillerFlower/NORMAL_FillerFlower.png" id="4_0rp5i"]
+
+[resource]
+render_priority = 1
+shader = ExtResource("1_rbwno")
+shader_parameter/Roughness = 1.0
+shader_parameter/AmbientOcclusion = 0.3
+shader_parameter/AlphaScissor = 0.5
+shader_parameter/FillerFlowerColor = ExtResource("2_1o7p7")
+shader_parameter/FIllerFlowerMask = ExtResource("3_fk88n")
+shader_parameter/FF_MRAO = ExtResource("3_hlxnu")
+shader_parameter/FF_NormalMap = ExtResource("4_0rp5i")

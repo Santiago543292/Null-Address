@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/monster_brain.gd" id="1"]
+[ext_resource type="PackedScene" path="res://monsters/shambler/shambler_worker.glb" id="2"]
+[ext_resource type="Texture2D" path="res://monsters/shambler/shambler_worker.png" id="3"]
+[ext_resource type="Texture2D" path="res://monsters/shambler/shambler_patient.png" id="4"]
+
+[sub_resource type="CapsuleShape3D" id="body"]
+radius = 0.221
+height = 1.805
+
+[node name="Shambler" type="CharacterBody3D"]
+collision_layer = 4
+collision_mask = 7
+floor_snap_length = 0.3
+script = ExtResource("1")
+monster_name = "Shambler"
+eye_height = 1.53
+walk_speed = 0.35
+run_speed = 1.45
+walk_animation_speed = 0.35
+run_animation_speed = 1.45
+attack_range = 1.2
+attack_hit_time = 0.55
+attack2_range = 0.0
+attack2_hit_time = 0.45
+damage = 12.0
+max_health = 130.0
+animation_player = NodePath("Model/AnimationPlayer")
+anim_alert = &"Scream"
+skin_textures = {
+"worker": ExtResource("3"),
+"patient": ExtResource("4")
+}
+skin = "worker"
+model = NodePath("Model")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.902, 0.093)
+shape = SubResource("body")
+
+[node name="Model" parent="." instance=ExtResource("2")]
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+path_desired_distance = 0.6
+target_desired_distance = 0.6
+path_height_offset = 0.0

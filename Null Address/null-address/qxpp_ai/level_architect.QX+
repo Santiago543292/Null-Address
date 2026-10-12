@@ -1,0 +1,195 @@
+// ============================================================================
+// Null Address - Level Architect
+//
+// Designs ACT layouts for the game. Emits a design RULE SHEET: the venue's
+// grid, lighting policy, furniture policy and dread level, as plain numbers.
+//
+// WHY IT LOOKS LIKE THIS
+// ----------------------
+// The C++ interpreter (qxpp.exe, the one you get when you run a .QX+ file
+// directly) has three confirmed limitations, each found by direct testing:
+//
+//   1. `for` loops print nothing at all.
+//   2. `int()` does not exist.
+//   3. A large integer multiply overflows int32 and ABORTS the process with
+//          std::out_of_range: stoi: out of range
+//      which is the crash you were hitting.
+//   4. String comparison INSIDE A FUNCTION always takes the else branch.
+//      `if v == "office"` at top level works; the same test inside `fn f(v)`
+//      does not. So every branch below lives in main().
+//
+// The Python interpreter handles all four correctly, but a .QX+ file that only
+// runs under one interpreter is a trap. So: no loops, no int(), no big numbers,
+// no comparisons inside functions. QX++ decides intent; Python does the
+// arithmetic per room. That split runs identically under both interpreters.
+//
+// Venues: "store", "office", "tunnel", "house"
+// ============================================================================
+
+fn main() {
+    // ---- pick the venue here, in main, where string comparison works -------
+    let venue = "office"
+
+    let is_store = 0
+    let is_office = 0
+    let is_house = 0
+    let is_tunnel = 0
+
+    if venue == "store" {
+        is_store = 1
+    }
+    if venue == "office" {
+        is_office = 1
+    }
+    if venue == "house" {
+        is_house = 1
+    }
+    if venue == "tunnel" {
+        is_tunnel = 1
+    }
+    if is_store + is_office + is_house + is_tunnel == 0 {
+        is_tunnel = 1
+    }
+
+    // ---- grid --------------------------------------------------------------
+    // Room sizes are multiples of 2.0 and wall_h is 2.7 because the
+    // ModularWalls_1 kit is built on a 2.00m grid at 2.70m tall. Anything else
+    // and the wall modules cannot snap, which is what made rooms look boxy.
+    let cols = 2
+    let rows = 1
+    let room_w = 6.0
+    let room_h = 40.0
+    let wall_h = 2.7
+
+    if is_store == 1 {
+        cols = 4
+        rows = 3
+        room_w = 8.0
+        room_h = 8.0
+        wall_h = 2.7
+    }
+    if is_office == 1 {
+        cols = 5
+        rows = 3
+        room_w = 6.0
+        room_h = 6.0
+        wall_h = 2.7
+    }
+    if is_house == 1 {
+        cols = 2
+        rows = 2
+        room_w = 8.0
+        room_h = 6.0
+        wall_h = 2.7
+    }
+
+    // ---- dread: how oppressive the space is --------------------------------
+    let dread = 0.95
+    if is_store == 1 {
+        dread = 0.45
+    }
+    if is_office == 1 {
+        dread = 0.70
+    }
+    if is_house == 1 {
+        dread = 0.80
+    }
+
+    // ---- lighting policy ---------------------------------------------------
+    let light_spacing = 6.0
+    let dead_cut = 70
+    let fail_cut = 88
+    if is_store == 1 {
+        dead_cut = 45
+        fail_cut = 70
+    }
+    if is_office == 1 {
+        light_spacing = 4.5
+        dead_cut = 40
+        fail_cut = 70
+    }
+    if is_house == 1 {
+        light_spacing = 3.5
+        dead_cut = 50
+        fail_cut = 78
+    }
+
+    // ---- furniture policy: base count per room -----------------------------
+    let p_desk = 0
+    let p_chair = 0
+    let p_cabinet = 0
+    let p_shelf = 0
+    let p_crate = 0
+    let p_cart = 0
+    let p_pipe = 0
+    let p_debris = 2
+
+    if is_store == 1 {
+        p_shelf = 3
+        p_crate = 2
+        p_cart = 1
+        p_debris = 2
+    }
+    if is_office == 1 {
+        p_desk = 2
+        p_chair = 2
+        p_cabinet = 1
+        p_debris = 1
+    }
+    if is_house == 1 {
+        p_desk = 1
+        p_chair = 1
+        p_shelf = 1
+        p_crate = 1
+        p_debris = 1
+    }
+    if is_tunnel == 1 {
+        p_debris = 2
+        p_pipe = 3
+    }
+
+    // ---- ACT identity: acts are chapters, not "levels" ---------------------
+    let act = 4
+    let act_title = "THE TUNNEL"
+    if is_store == 1 {
+        act = 1
+        act_title = "THE CLOSED STORE"
+    }
+    if is_office == 1 {
+        act = 2
+        act_title = "THE OFFICE FLOOR"
+    }
+    if is_house == 1 {
+        act = 3
+        act_title = "THE HOUSE"
+    }
+
+    // ---- emit the rule sheet ----------------------------------------------
+    print("venue={venue}")
+    print("cols={cols}")
+    print("rows={rows}")
+    print("room_w={room_w}")
+    print("room_h={room_h}")
+    print("wall_h={wall_h}")
+    print("dread={dread}")
+
+    print("light_spacing={light_spacing}")
+    print("dead_cut={dead_cut}")
+    print("fail_cut={fail_cut}")
+    print("energy_dead=0.0")
+    print("energy_fail=1.1")
+    print("energy_live=2.0")
+
+    print("prop_base_desk={p_desk}")
+    print("prop_base_chair={p_chair}")
+    print("prop_base_cabinet={p_cabinet}")
+    print("prop_base_shelf={p_shelf}")
+    print("prop_base_crate={p_crate}")
+    print("prop_base_cart={p_cart}")
+    print("prop_base_pipe={p_pipe}")
+    print("prop_base_debris={p_debris}")
+
+    print("act={act}")
+    print("act_title={act_title}")
+    print("done=1")
+}

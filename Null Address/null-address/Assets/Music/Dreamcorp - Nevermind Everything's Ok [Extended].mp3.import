@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgg6ck1ymhxws"
+path="res://.godot/imported/Dreamcorp - Nevermind Everything's Ok [Extended].mp3-fd1e3c6f8442e762eb03416c37c16d6d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/Dreamcorp - Nevermind Everything's Ok [Extended].mp3"
+dest_files=["res://.godot/imported/Dreamcorp - Nevermind Everything's Ok [Extended].mp3-fd1e3c6f8442e762eb03416c37c16d6d.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,2138 @@
+{
+ "about": "Demo level layout of the PSX Horror Modular Kit. One entry per GridMap cell: the GridMap node (under GridMaps/), its theme MeshLibrary, the item name, the cell x, y (storey), z and the rotation around Y in degrees (0 = the piece as modelled, edge pieces on the north edge; 90 west, 180 south, 270 east). Cell size 2 x 3 x 2 m, cell centre x / z on, y off.",
+ "cell_size": [
+  2,
+  3,
+  2
+ ],
+ "gridmaps": [
+  {
+   "name": "Backrooms_Floors",
+   "theme": "Backrooms"
+  },
+  {
+   "name": "Backrooms_Walls",
+   "theme": "Backrooms"
+  },
+  {
+   "name": "Backrooms_Walls2",
+   "theme": "Backrooms"
+  },
+  {
+   "name": "Backrooms_Details",
+   "theme": "Backrooms"
+  },
+  {
+   "name": "Backrooms_Ceilings",
+   "theme": "Backrooms"
+  }
+ ],
+ "cells": [
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 1,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 4,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 7,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 1,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 7,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 1,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 4,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 7,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 6,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 5,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 7,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 1,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 4,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 7,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling_light",
+   "x": 7,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor_wet",
+   "x": 8,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 7,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 0,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 0,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 1,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 1,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 2,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 2,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 3,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 3,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 4,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 4,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 5,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 5,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 6,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 6,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 7,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 7,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Floors",
+   "theme": "Backrooms",
+   "item": "back_floor",
+   "x": 8,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Ceilings",
+   "theme": "Backrooms",
+   "item": "back_ceiling",
+   "x": 8,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 1,
+   "y": 0,
+   "z": 0,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 4,
+   "y": 0,
+   "z": 0,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_doorway",
+   "x": 5,
+   "y": 0,
+   "z": 0,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 7,
+   "y": 0,
+   "z": 0,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 2,
+   "y": 0,
+   "z": 1,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 3,
+   "y": 0,
+   "z": 1,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 1,
+   "y": 0,
+   "z": 2,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 3,
+   "y": 0,
+   "z": 2,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 4,
+   "y": 0,
+   "z": 2,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 8,
+   "y": 0,
+   "z": 2,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 3,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 2,
+   "y": 0,
+   "z": 3,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_half",
+   "x": 5,
+   "y": 0,
+   "z": 3,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 7,
+   "y": 0,
+   "z": 3,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 2,
+   "y": 0,
+   "z": 4,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 3,
+   "y": 0,
+   "z": 4,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 5,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 2,
+   "y": 0,
+   "z": 5,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 7,
+   "y": 0,
+   "z": 5,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 4,
+   "y": 0,
+   "z": 6,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_doorway",
+   "x": 6,
+   "y": 0,
+   "z": 6,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_half",
+   "x": 8,
+   "y": 0,
+   "z": 6,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 7,
+   "y": 0,
+   "z": 6,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 1,
+   "y": 0,
+   "z": 7,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 2,
+   "y": 0,
+   "z": 7,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 7,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 5,
+   "y": 0,
+   "z": 8,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 6,
+   "y": 0,
+   "z": 8,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 0,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 1,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 2,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 3,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 4,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 5,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 6,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 7,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 0,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 1,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 8,
+   "y": 0,
+   "z": 1,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 2,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 8,
+   "y": 0,
+   "z": 2,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 3,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 3,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 4,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 8,
+   "y": 0,
+   "z": 4,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 5,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 5,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 6,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 6,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 7,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 7,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 0,
+   "y": 0,
+   "z": 8,
+   "rot": 90
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 1,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 2,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 3,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 4,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 5,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 6,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall_damp",
+   "x": 7,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 8,
+   "rot": 180
+  },
+  {
+   "gridmap": "Backrooms_Walls2",
+   "theme": "Backrooms",
+   "item": "back_wall",
+   "x": 8,
+   "y": 0,
+   "z": 8,
+   "rot": 270
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_corner",
+   "x": 2,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_corner",
+   "x": 3,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_corner",
+   "x": 7,
+   "y": 0,
+   "z": 3,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_pillar",
+   "x": 8,
+   "y": 0,
+   "z": 0,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_pillar",
+   "x": 8,
+   "y": 0,
+   "z": 2,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_pillar",
+   "x": 0,
+   "y": 0,
+   "z": 4,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_pillar",
+   "x": 6,
+   "y": 0,
+   "z": 6,
+   "rot": 0
+  },
+  {
+   "gridmap": "Backrooms_Details",
+   "theme": "Backrooms",
+   "item": "back_pillar",
+   "x": 3,
+   "y": 0,
+   "z": 8,
+   "rot": 0
+  }
+ ]
+}

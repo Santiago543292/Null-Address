@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1n8gm0xigxce"
+path="res://.godot/imported/back_wall_doorway.obj-e650ad89272a1be96107197ce660a6d3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/back_wall_doorway.obj-e650ad89272a1be96107197ce660a6d3.mesh"]
+
+source_file="res://Assets/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/PSX_HORROR_MODULAR_KIT_Free_Backrooms_Sampler/OBJ/Backrooms/back_wall_doorway.obj"
+dest_files=["res://.godot/imported/back_wall_doorway.obj-e650ad89272a1be96107197ce660a6d3.mesh", "res://.godot/imported/back_wall_doorway.obj-e650ad89272a1be96107197ce660a6d3.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3]
+
+[ext_resource type="Texture2D" path="res://Assets/ModularWalls_1/ModularWalls_1/Textures/Atlasv2Color.png" id="1_col"]
+[ext_resource type="Texture2D" path="res://Assets/ModularWalls_1/ModularWalls_1/Textures/Atlasv2Normal.png" id="2_nrm"]
+[ext_resource type="Texture2D" path="res://Assets/ModularWalls_1/ModularWalls_1/Textures/Atlasv2Roughness.png" id="3_rgh"]
+[ext_resource type="Texture2D" path="res://Assets/ModularWalls_1/ModularWalls_1/Textures/Atlasv2Metal.png" id="4_met"]
+[ext_resource type="Texture2D" path="res://Assets/ModularWalls_1/ModularWalls_1/Textures/Atlasv2AO.png" id="5_ao"]
+
+[resource]
+resource_name = "WallAtlas"
+albedo_texture = ExtResource("1_col")
+normal_enabled = true
+normal_texture = ExtResource("2_nrm")
+normal_scale = 1.0
+roughness_texture = ExtResource("3_rgh")
+roughness = 1.0
+metallic_texture = ExtResource("4_met")
+metallic = 0.35
+metallic_specular = 0.4
+ao_enabled = true
+ao_texture = ExtResource("5_ao")
+ao_light_affect = 0.35
+texture_filter = 5

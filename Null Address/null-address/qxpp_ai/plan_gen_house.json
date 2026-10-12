@@ -1,0 +1,22 @@
+{
+  "act": 3,
+  "act_title": "THE HOUSE",
+  "venue": "house",
+  "cols": 2,
+  "rows": 2,
+  "rooms": 4,
+  "dread": 0.8,
+  "size": [
+    16.0,
+    12.0,
+    2.7
+  ],
+  "lights": {
+    "total": 10,
+    "dead": 6,
+    "failing": 2,
+    "working": 2
+  },
+  "props": 20,
+  "doors": 0
+}

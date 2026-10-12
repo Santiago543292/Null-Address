@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bikj1thtimaen"
+path="res://.godot/imported/10 - a formula - A Formula (2021_01_29 05_31_01 UTC).ogg-367c9453f201609dececacf0bd5408bc.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Music/10 - a formula - A Formula (2021_01_29 05_31_01 UTC).ogg"
+dest_files=["res://.godot/imported/10 - a formula - A Formula (2021_01_29 05_31_01 UTC).ogg-367c9453f201609dececacf0bd5408bc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

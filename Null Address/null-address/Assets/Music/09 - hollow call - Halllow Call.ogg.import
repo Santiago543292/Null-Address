@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b5eu7tqnd02f4"
+path="res://.godot/imported/09 - hollow call - Halllow Call.ogg-74f182c0d9845db2897990ca81ba528a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Music/09 - hollow call - Halllow Call.ogg"
+dest_files=["res://.godot/imported/09 - hollow call - Halllow Call.ogg-74f182c0d9845db2897990ca81ba528a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

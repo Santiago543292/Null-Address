@@ -1,0 +1,49 @@
+{
+  "measured": {
+    "house": {
+      "nodes": 585,
+      "mesh_instances": 331,
+      "collision_shapes": 122,
+      "static_bodies": 7,
+      "instances": 68,
+      "lights": {
+        "omni": 21,
+        "spot": 0,
+        "directional": 1,
+        "total": 22
+      },
+      "lights_live_ratio": 0.727,
+      "textures": 10,
+      "scripts": 8,
+      "shaders": 2,
+      "mesh_per_collision": 2.71
+    },
+    "hub": {
+      "nodes": 341,
+      "mesh_instances": 148,
+      "collision_shapes": 52,
+      "static_bodies": 51,
+      "instances": 50,
+      "lights": {
+        "omni": 13,
+        "spot": 0,
+        "directional": 1,
+        "total": 14
+      },
+      "lights_live_ratio": 1.0,
+      "textures": 2,
+      "scripts": 4,
+      "shaders": 1,
+      "mesh_per_collision": 2.85
+    }
+  },
+  "rules": {
+    "measured_live_ratio": 0.863,
+    "measured_light_count": 18,
+    "measured_texture_count": 6,
+    "measured_mesh_per_collision": 2.78,
+    "suggested_prop_multiplier": 1.39,
+    "lighting_policy": "keep dread-driven; do NOT copy the lit reference maps",
+    "note": "Density learned from the hand-fixed maps. Lighting deliberately NOT learned from them - they are daytime exteriors and the game is dark. prop_multiplier scales each venue's base furniture count."
+  }
+}
